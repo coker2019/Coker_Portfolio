@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse project] <a name="about-project"></a>
+# 📖 [Portfolio: setup and mobile first] <a name="about-project"></a>
 
 .
 
@@ -125,7 +125,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+
 
 <!--
 Example command:
@@ -137,7 +137,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+
 
 <!--
 Example command:
@@ -149,7 +149,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+
 
 <!--
 Example:
@@ -216,7 +216,7 @@ If you like this project...
 
 
 
-I would like to thank Microverse community for giving me the opportunity to learn here.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
