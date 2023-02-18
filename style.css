@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
-
-
 * {
   box-sizing: border-box;
-
-
 }
 
 body {
@@ -25,7 +21,6 @@ li {
   text-decoration: none;
 }
 
-
 .tool_bar {
   display: flex;
   justify-content: space-between;
@@ -34,7 +29,6 @@ li {
   height: 50px;
   padding: 14px 24px;
   align-items: center;
-
 }
 
 .Logo {
@@ -51,19 +45,13 @@ li {
   line-height: 20px;
 }
 
-
-
-
 .headline-sec {
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   padding-top: 180px;
   background-position-y: 100px;
   margin-left: 4%;
-
-
 }
-
 
 .greetings {
   width: 327px;
@@ -75,9 +63,7 @@ li {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
-
-
+  color: #172b4d;
 }
 
 .text2 {
@@ -99,8 +85,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
-
+  color: #7f8cff;
 }
 
 .media-icon {
