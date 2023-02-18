@@ -22,6 +22,7 @@
 The project is my first mobile setup of my portfolio website.
 It contains the header and the headlines section which gives 
 information about me and what i do.
+The work section is also included here projects are carried out.
 
 ## 🛠 Built With <a name="built-with"></a>
 
