@@ -51,6 +51,8 @@ li {
   padding-top: 180px;
   background-position-y: 100px;
   margin-left: 4%;
+  display: flex;
+  flex-direction: column;
 }
 
 .greetings {
@@ -94,4 +96,11 @@ li {
   align-items: center;
   gap: 10px;
   margin-left: -20px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
 }
