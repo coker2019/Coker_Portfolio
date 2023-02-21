@@ -109,6 +109,20 @@ button {
   margin-top: 130px;
 }
 
+.cards_container {
+ display: grid;
+ grid-template-columns: auto;
+align-items: center;
+padding: 114px 24px;
+gap: 88px;
+position: absolute;
+width: 375px;
+height: 2788px;
+left: 0px;
+top: 718px;
+
+}
+
 .card_work {
   margin-bottom: 130px;
   display: flex;
@@ -117,7 +131,7 @@ button {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 670px;
+  height: 700px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -139,6 +153,7 @@ button {
   gap: 12px;
   width: 295px;
   height: 288px;
+  margin-bottom: 100px;
 }
 
 .tonic-text {
@@ -291,6 +306,7 @@ button {
 }
 
 .but_container {
+  padding-bottom: 100px;
   width: 295px;
   height: 72px;
 }
@@ -305,8 +321,9 @@ button {
   width: 130px;
   height: 48px;
   left: 0;
-  border: 1px solid #6070ff;
+  border: 2px solid #6070ff;
   border-radius: 8px;
+
 }
 
 .text_project {
