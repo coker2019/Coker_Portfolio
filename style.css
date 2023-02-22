@@ -110,16 +110,16 @@ button {
 }
 
 .cards_container {
- display: grid;
- grid-template-columns: auto;
-align-items: center;
-padding: 114px 24px;
-gap: 88px;
-position: absolute;
-width: 375px;
-height: 2788px;
-left: 0px;
-top: 718px;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 88px;
+  position: absolute;
+  width: 375px;
+  height: 2788px;
+  left: 0px;
+  top: 718px;
 
 }
 
@@ -153,12 +153,12 @@ top: 718px;
   gap: 12px;
   width: 295px;
   height: 288px;
-  margin-bottom: 100px;
+  margin-top: -30px;
 }
 
 .tonic-text {
   width: 295px;
-  height: 36px;
+  height: 806px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -323,6 +323,7 @@ top: 718px;
   left: 0;
   border: 2px solid #6070ff;
   border-radius: 8px;
+  margin-top: -10px;
 
 }
 
@@ -339,4 +340,140 @@ top: 718px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+}
+
+.About_section {
+  position: absolute;
+  width: 375px;
+  height: 1263px;
+  left: 40px;
+  top: 4500px;
+
+}
+
+.About_text {
+  width: 327px;
+  height: 101px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+}
+
+.software_text {
+  width: 327px;
+  height: 144px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+}
+
+.resume_but {
+  padding-bottom: 100px;
+  width: 295px;
+  height: 72px;
+}
+
+.Action_but2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px;
+  gap: 10px;
+  width: 170px;
+  height: 55px;
+  left: 0;
+  border: 2px solid #6070ff;
+  border-radius: 8px;
+  margin-top: -10px;
+}
+
+.lang_container {
+  white-space: nowrap;
+  margin-top: 15px;
+
+  
+}
+
+.lang{
+display: inline-block;
+}
+
+.union3 {
+ display: inline-block;
+ margin-left: 40%;
+}
+
+.skills {
+  display: inline-block;
+ margin-left: 58%;
+}
+
+.java_board {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  width: 303px;
+  height: 66.72px;
+  background: #F7F7F9;
+  border-radius: 8px;
+}
+
+.java_img { 
+position: absolute;
+width: 48px;
+height: 48px;
+left: 12px;
+margin-top: 9px;
+}
+
+.script_text {
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500px;
+font-size: 15px;
+line-height: 20px;
+align-items: center;
+color: #253858;
+margin-left: 76px;
+}
+
+.frame_work {
+  position: absolute;
+height: 24px;
+left: 12px;
+right: 78px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.Union_arrow {
+  position: absolute;
+
+border: 2px solid #ACB7C3;
+}
+
+.saperator {
+position: absolute;
+height: 2px;
+width: 327px;
+
+background: #DFE1E6;
 }
