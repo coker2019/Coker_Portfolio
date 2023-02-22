@@ -394,8 +394,8 @@ button {
   box-sizing: border-box;
   padding: 12px;
   gap: 10px;
-  width: 170px;
-  height: 55px;
+  width: 140px;
+  height: 50px;
   left: 0;
   border: 2px solid #6070ff;
   border-radius: 8px;
@@ -403,7 +403,8 @@ button {
 }
 
 button:hover {
-  background: orangered;
+  background-color: #6070ff;
+  color: white;
 }
 
 .lang_container {
