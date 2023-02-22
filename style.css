@@ -117,13 +117,13 @@ button {
   gap: 88px;
   position: absolute;
   width: 375px;
-  height: 2788px;
-  left: 0px;
+  height: 2700px;
+  left: 0;
   top: 718px;
-
 }
 
-.card_work {
+.card_work,
+.card_work2 {
   margin-bottom: 130px;
   display: flex;
   flex-direction: column;
@@ -131,11 +131,18 @@ button {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 700px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-left: 4%;
+}
+
+.card_work {
+  height: 700px;
+}
+
+.card_work2 {
+  height: 750px;
 }
 
 .snapshot {
@@ -323,8 +330,7 @@ button {
   left: 0;
   border: 2px solid #6070ff;
   border-radius: 8px;
-  margin-top: -10px;
-
+  margin-top: 5px;
 }
 
 .text_project {
@@ -348,26 +354,25 @@ button {
   height: 1263px;
   left: 40px;
   top: 4500px;
-
 }
 
 .About_text {
   width: 327px;
   height: 101px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .software_text {
   width: 327px;
   height: 144px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -397,25 +402,27 @@ button {
   margin-top: -10px;
 }
 
+button:hover {
+  background: orangered;
+}
+
 .lang_container {
   white-space: nowrap;
   margin-top: 15px;
-
-  
 }
 
-.lang{
-display: inline-block;
+.lang {
+  display: inline-block;
 }
 
 .union3 {
- display: inline-block;
- margin-left: 40%;
+  display: inline-block;
+  margin-left: 40%;
 }
 
 .skills {
   display: inline-block;
- margin-left: 58%;
+  margin-left: 58%;
 }
 
 .java_board {
@@ -424,56 +431,53 @@ display: inline-block;
   margin-top: 45px;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
 }
 
-.java_img { 
-position: absolute;
-width: 48px;
-height: 48px;
-left: 12px;
-margin-top: 9px;
+.java_img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  margin-top: 9px;
 }
 
 .script_text {
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500px;
-font-size: 15px;
-line-height: 20px;
-align-items: center;
-color: #253858;
-margin-left: 76px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  color: #253858;
+  margin-left: 76px;
 }
 
 .frame_work {
   position: absolute;
-height: 24px;
-left: 12px;
-right: 78px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-display: flex;
-align-items: center;
-
-color: #000000;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
 
 .Union_arrow {
   position: absolute;
-
-border: 2px solid #ACB7C3;
+  border: 2px solid #acb7c3;
 }
 
 .saperator {
-position: absolute;
-height: 2px;
-width: 327px;
-
-background: #DFE1E6;
+  position: absolute;
+  height: 2px;
+  width: 327px;
+  background: #dfe1e6;
 }
