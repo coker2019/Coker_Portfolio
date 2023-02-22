@@ -23,6 +23,8 @@ The project is my first mobile setup of my portfolio website.
 It contains the header and the headlines section which gives 
 information about me and what i do.
 The work section and the about section are added in this project.
+The work section provides information about my resume and the diffrent languages
+to build those projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,9 +39,11 @@ The work section and the about section are added in this project.
 Key Features
 
 key features of the application:
- The app allows user to update information.
+ The app allows user to view information.
  Accepts data.
  Gives feedback to users.
+ Allows users to view resume and the diffrent languages used
+ to develope the projects.
 
 
 
@@ -54,6 +58,9 @@ key features of the application:
 -  sign up with valid email.
 -  sign in with user name and password.
 - view portfolio.
+- View projects
+- View resume.
+- 
 
 
 
