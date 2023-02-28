@@ -527,7 +527,6 @@ button:hover {
   color: #FFFFFF;
 }
 
-
 .contact_text {
   position: absolute;
   width: 327px;
@@ -541,4 +540,26 @@ button:hover {
   color: #EBEBFF;
   margin-top: 171px;
   margin-left: 24px;
+}
+
+form {
+  margin-top: 500px;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  border: none;
+  height: 70px;
+  width: 327px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.input_name {
+  width: 327px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
 }
