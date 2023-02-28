@@ -563,3 +563,21 @@ form {
   border: 1px solid #CFD8DC;
   border-radius: 8px;
 }
+
+.input_mail {
+  width: 327px;
+  height: 48px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.message_box {
+  width: 327px;
+  height: 170px;
+  margin-top: 18px;
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
