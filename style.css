@@ -483,3 +483,17 @@ button:hover {
   background: #dfe1e6;
 }
 
+.contact_section {
+  background-image: url("images/Contact\ me.png");
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+  background: #6070FF;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 338px;
+  border-top-left-radius: 100px;
+}
