@@ -497,3 +497,17 @@ button:hover {
   margin-top: 338px;
   border-top-left-radius: 100px;
 }
+
+.ellipse_12 {
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 153px;
+  margin-top: 55px;
+  background: #7F8CFF;
+}
+
+.rectangle {
+  position: absolute;
+  margin-left: 310px;
+  margin-top: 21px
+}
