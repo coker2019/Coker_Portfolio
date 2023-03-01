@@ -484,13 +484,16 @@ button:hover {
 }
 
 .contact_section {
-  background-image: url("images/Contact\ me.png");
+  background-image: url("images/image_back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-position: center; */
   position: absolute;
   width: 375px;
   height: 779px;
-  left: 0px;
+  left: 0;
   top: 5410px;
-  background: #6070FF;
   margin-left: 2%;
   display: flex;
   flex-direction: column;
@@ -498,25 +501,11 @@ button:hover {
   border-top-left-radius: 100px;
 }
 
-.ellipse_12 {
-  position: absolute;
-  border-radius: 100%;
-  margin-left: 153px;
-  margin-top: 55px;
-  background: #7F8CFF;
-}
-
-.rectangle {
-  position: absolute;
-  margin-left: 310px;
-  margin-top: 21px
-}
-
 .contact-head {
   margin-top: 102px;
   margin-left: 20%;
   position: absolute;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -524,20 +513,20 @@ button:hover {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .contact_text {
   position: absolute;
   width: 327px;
   height: 102px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-top: 171px;
   margin-left: 24px;
 }
@@ -556,11 +545,25 @@ form {
   text-decoration: none;
 }
 
+form input {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  outline: none;
+}
+
 .input_name {
   width: 327px;
   height: 48px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+
+  /* background: #FFFFFF; */
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
@@ -568,17 +571,32 @@ form {
   width: 327px;
   height: 48px;
   margin-top: 20px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
+}
+
+::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  padding: 15px 16px;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .message_box {
   width: 327px;
   height: 170px;
   margin-top: 18px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
@@ -590,7 +608,13 @@ form {
   margin-top: 22px;
   width: 142px;
   height: 48px;
-  background: #FFFFFF;
+  background: #fff;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   border-radius: 8px;
 }
 
@@ -603,5 +627,15 @@ form {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #dfe1e6;
+}
+
+.shape_img {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
 }
