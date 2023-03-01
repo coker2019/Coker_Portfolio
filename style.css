@@ -254,6 +254,26 @@ button {
   border-radius: 8px;
 }
 
+.html_but:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.html_but:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.html_but:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.html_but:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 .html_text {
   width: 29px;
   height: 16px;
@@ -277,6 +297,26 @@ button {
   border-radius: 8px;
 }
 
+.css_but:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.css_but:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.css_but:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.css_but:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 .css_text {
   width: 21px;
   height: 16px;
@@ -298,6 +338,26 @@ button {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
+}
+
+.java_but:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.java_but:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.java_but:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.java_but:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
 }
 
 .java_text {
@@ -331,6 +391,26 @@ button {
   border: 2px solid #6070ff;
   border-radius: 8px;
   margin-top: 5px;
+}
+
+.Action_but:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.Action_but:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.Action_but:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.Action_but:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
 }
 
 .text_project {
@@ -387,6 +467,26 @@ button {
   height: 72px;
 }
 
+.resume_but:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.resume_but:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.resume_but:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.resume_but:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 .Action_but2 {
   display: flex;
   flex-direction: row;
@@ -402,9 +502,24 @@ button {
   margin-top: -10px;
 }
 
-button:hover {
-  background-color: #6070ff;
-  color: white;
+.Action_but2:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.Action_but2:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.Action_but2:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.Action_but2:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
 }
 
 .lang_container {
@@ -608,14 +723,35 @@ textarea::placeholder {
   margin-top: 22px;
   width: 142px;
   height: 48px;
-  background: #fff;
-  color: #6070ff;
+
+  /* background: #fff;
+  color: #6070ff; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   border-radius: 8px;
+}
+
+.touch_btn:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.touch_btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.touch_btn:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.touch_btn:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
 }
 
 .touch_text {
