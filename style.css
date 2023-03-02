@@ -9,6 +9,7 @@ body {
   padding: 0;
   border: 0;
   font-family: "Poppins", sans-serif;
+ 
 }
 
 a {
@@ -29,6 +30,10 @@ li {
   height: 50px;
   padding: 14px 24px;
   align-items: center;
+}
+
+.desk_nav {
+  display: none;
 }
 
 .Logo {
@@ -776,3 +781,14 @@ textarea::placeholder {
   border-radius: 10px;
 }
 
+
+@media (min-width: 768px) {
+  body {
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
