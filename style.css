@@ -801,9 +801,9 @@ textarea::placeholder {
     border: 0;
     font-family: "Poppins", sans-serif;
     background-color: #dfe1e6;
-    overflow-x: hidden;
-    margin: 0 auto;
-    height: auto;
+    /* overflow-x: hidden; */
+    /* margin: 0 auto;
+    height: auto; */
 
   }
 
@@ -839,7 +839,6 @@ textarea::placeholder {
     background-repeat: no-repeat;
     border-bottom-left-radius: 60px;
     background-size: 100%;
-    margin-left: 1%;
     width: 100%;
   }
 
@@ -903,7 +902,6 @@ textarea::placeholder {
   }
 
   .cards_container {
-
     margin-top: 148px;
     display: flex;
     flex-direction: column;
@@ -911,7 +909,7 @@ textarea::placeholder {
     align-items: center;
     margin-left: 30.4rem;
     position: absolute;
-
+    background: #E5E5E5;
   }
 
   .card_work,
@@ -1202,10 +1200,13 @@ textarea::placeholder {
   }
 
   .About_section {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 142px;
+    background: #ffff;
+    margin-top: -80px !important;
+
+
 
   }
 
@@ -1218,7 +1219,10 @@ textarea::placeholder {
     width: 45%;
     padding: 0;
 
+  }
 
+  .About_1 {
+    margin-left: 100px;
   }
 
   .aboutmyselfButton {
@@ -1253,9 +1257,6 @@ textarea::placeholder {
     width: 8rem;
   }
 
-  .About_text {
-
-  }
 
   .software_text {
     width: 447px;
@@ -1280,7 +1281,8 @@ textarea::placeholder {
 
   .java_boardNew {
     display: flex;
-    width: 100%;
+    width: 35%;
+
   }
 
   .java_boardNew li {
@@ -1296,6 +1298,7 @@ textarea::placeholder {
   .script_text {
     margin-top: 5rem;
     margin-right: 4rem;
+
   }
 
   .java_img {
@@ -1307,14 +1310,19 @@ textarea::placeholder {
     width: 100%;
   }
 
+  .lang {
+    margin-top: 50px;
+  }
+
   .union3 {
-    position: absolute;
     margin-left: 500px;
+    margin-top: 50px;
   }
 
   .skills {
-    position: absolute;
+    /* position: absolute; */
     margin-left: 565px;
+    margin-bottom: 50px;
   }
 
   .saperator {
@@ -1325,18 +1333,20 @@ textarea::placeholder {
   }
 
   .contact_section {
+    background-image: url("images/contact\ form-\ background-shape-desktop\ \(1\).png");
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
-  }
+   ;
 
-  form {
-    margin-bottom: 200px;
   }
 
   .contact-head {
     margin-bottom: 50px;
+  }
+
+  .break {
+    display: none;
   }
 
 }
