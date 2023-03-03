@@ -84,7 +84,8 @@ li {
   color: #344563;
 }
 
-.connect {
+.connect,
+.connect2 {
   width: 130px;
   height: 24px;
   font-family: "Poppins", sans-serif;
@@ -95,7 +96,8 @@ li {
   color: #7f8cff;
 }
 
-.media-icon {
+.media-icon,
+.media-icon2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -140,7 +142,7 @@ button {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-left: 1%;
-  
+
 }
 
 .card_work {
@@ -783,30 +785,37 @@ textarea::placeholder {
   border-radius: 10px;
 }
 
+.newJavaDiv {
+  display: none;
+}
+
 
 @media (min-width: 768px) {
- 
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: "Poppins", sans-serif;
+  * {
+    box-sizing: border-box;
+  }
 
-}
+  body {
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #dfe1e6;
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: auto;
 
-a {
-  list-style-type: none;
-  text-decoration: none;
-}
+  }
 
-li {
-  list-style-type: none;
-  text-decoration: none;
-}
+  a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
+    text-decoration: none;
+  }
 
   .tool_bar {
     justify-content: space-around;
@@ -829,6 +838,7 @@ li {
     background-image: url("images/desktop_background.png");
     background-repeat: no-repeat;
     border-bottom-left-radius: 60px;
+    background-size: 100%;
     margin-left: 1%;
     width: 100%;
   }
@@ -893,15 +903,15 @@ li {
   }
 
   .cards_container {
-   
-  margin-top: 148px;
+
+    margin-top: 148px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 30.4rem;
     position: absolute;
-    
+
   }
 
   .card_work,
@@ -911,27 +921,27 @@ li {
     align-items: center;
     padding: 16px;
     gap: 12px;
-    width: 950px;
+    width: 72.25rem;
     border-radius: 16px;
     margin-left: 4%;
     margin-left: 22.4rem;
   }
 
   .card_work {
-    height: 700px;
-   
+    height: 32rem;
+
   }
 
   .card_work2 {
-    height: 750px;
+    height: 33rem;
     flex-direction: row-reverse;
-   
+
   }
 
   .snapshot {
     /* margin: 16px 16px; */
-    width: 295px;
-    height: 220px;
+    width: 544px;
+    height: 448px;
     padding-bottom: 0;
   }
 
@@ -939,22 +949,24 @@ li {
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 12px;
+    gap: 18px;
     width: 295px;
     height: 288px;
+    margin: auto;
     margin-top: -30px;
+
   }
 
   .tonic-text {
-    width: 295px;
-    height: 806px;
+    width: 32rem;
+    height: 2.87rem;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
     color: #172b4d;
     margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px
   }
 
   .frame-2 {
@@ -968,13 +980,13 @@ li {
   }
 
   .canopy {
-    width: 55px;
-    height: 16px;
+    width: 75px;
+    height: 24px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .count {
@@ -984,7 +996,7 @@ li {
   }
 
   .role {
-    width: 88px;
+    width: 95px;
     height: 16px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1006,14 +1018,13 @@ li {
   }
 
   .daily_text {
-    width: 295px;
-    height: 76px;
-    font-family: "Poppins", sans-serif;
+    width: 850px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
-    color: #344563;
   }
 
   .tags {
@@ -1160,39 +1171,19 @@ li {
     height: 72px;
   }
 
-  .Action_but {
+  .Action_but2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
-    padding: 12px;
+    padding: 24px;
     gap: 10px;
-    width: 130px;
+    width: 450px;
     height: 48px;
     left: 0;
     border: 2px solid #6070ff;
     border-radius: 8px;
     margin-top: 5px;
-  }
-
-  .Action_but:enabled {
-    background: #fff;
-    color: #6070ff;
-  }
-
-  .Action_but:hover {
-    background: #6070ff;
-    color: #fff;
-  }
-
-  .Action_but:active {
-    background: #2230d2;
-    color: #fff;
-  }
-
-  .Action_but:disabled {
-    background: #e5e5e5;
-    color: #5e6c84;
   }
 
   .text_project {
@@ -1211,22 +1202,141 @@ li {
   }
 
   .About_section {
-    border: 2px solid red;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 142px;
+
+  }
+
+  .About_1,
+  .About_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    width: 45%;
+    padding: 0;
+
+
+  }
+
+  .aboutmyselfButton {
     width: 100%;
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .connect2 {
+    margin: 0 !important;
+  }
+
+  .media-icon2 {
+    padding: 1rem 0 1rem 0 !important;
+    margin: 0 !important;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .resume_but {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .About_1, .About_2 {
+  .resume_but .text_project {
     display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    width: 45%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.5rem 1rem 0.5rem !important;
+    margin: 1rem 0 1rem 0 !important;
+    width: 8rem;
+  }
+
+  .About_text {
+
+  }
+
+  .software_text {
+    width: 447px;
+    height: 102px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
 
+  .resume_but:hover {
+    background: #fff;
+    color: #6070ff;
+  }
 
+  .java_board {
+    display: none;
+  }
 
+  .java_boardNew {
+    display: flex;
+    width: 100%;
+  }
 
+  .java_boardNew li {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    margin-top: 45px;
+  }
+
+  .script_text {
+    margin-top: 5rem;
+    margin-right: 4rem;
+  }
+
+  .java_img {
+    left: 5rem;
+  }
+
+  .newJavaDiv {
+    display: block;
+    width: 100%;
+  }
+
+  .union3 {
+    position: absolute;
+    margin-left: 500px;
+  }
+
+  .skills {
+    position: absolute;
+    margin-left: 565px;
+  }
+
+  .saperator {
+    margin-top: 425px;
+    height: 2px;
+    width: 720px;
+    background: #dfe1e6;
+  }
+
+  .contact_section {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    margin-bottom: 200px;
+  }
+
+  .contact-head {
+    margin-bottom: 50px;
+  }
 
 }
