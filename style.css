@@ -908,7 +908,7 @@ textarea::placeholder {
   }
 
   .connect {
-    margin: -430px 1063px 405px 170px;
+    margin: -402px 1063px 405px 170px;
     width: 300px;
   }
 
@@ -923,7 +923,7 @@ textarea::placeholder {
   }
 
   .media-icon {
-    margin: -390px 1063px 405px 220px;
+    margin: -400px 1063px 405px 259px;
   }
 
   .works {
@@ -1263,6 +1263,7 @@ textarea::placeholder {
     margin-left: 0% !important;
     margin-bottom: 304% !important;
     margin-top: 0% !important;
+    top: 4579px;
   }
 
   .form-container {
