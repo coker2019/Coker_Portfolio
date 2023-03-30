@@ -62,11 +62,11 @@ header {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
-  
- }
+}
 
 .union-btn {
   display: flex;
@@ -869,11 +869,11 @@ textarea::placeholder {
     0% {
       transform: rotate(0deg);
     }
+
     100% {
       transform: rotate(360deg);
     }
-    
-   }
+  }
 
   .desk_nav {
     display: block;
