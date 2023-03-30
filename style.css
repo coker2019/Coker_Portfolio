@@ -55,18 +55,6 @@ header {
   font-size: 18px;
   line-height: 20px;
   margin: 10px 0 0 12px;
-  animation: spin 0.9s infinite linear;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 .union-btn {
   display: flex;
@@ -132,11 +120,6 @@ h1 {
   line-height: 24px;
   color: #7f8cff;
   margin: 12px 0 0 24px;
-}
-
-.connect-link2 {
-  margin-top: 50px;
-}
 
 .media-icon {
   width: 170.17px;
