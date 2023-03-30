@@ -46,7 +46,11 @@ li {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  animation: spin 0.9s infinite linear;
 }
+
+
+
 
 .headline-sec {
   background-image: url("images/header-shapes\ mobile.png");
