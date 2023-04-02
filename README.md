@@ -23,8 +23,9 @@ The project is my first mobile setup of my portfolio website.
 It contains the header and the headlines section which gives 
 information about me and what i do.
 The work section and the about section are added in this project.
-The work section provides information about my resume and the diffrent languages
-to build those projects.
+The work section provides information about my resume.
+The is a contact section that has a form where users that add and sign up.
+The project is shows on both mobile and desktop screen.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,6 +49,12 @@ key features of the application:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link]( https://coker2019.github.io/Coker_Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
