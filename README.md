@@ -25,7 +25,7 @@ information about me and what i do.
 The work section and the about section are added in this project.
 The work section provides information about my resume.
 The is a contact section that has a form where users that add and sign up.
-The project is shows on both mobile and desktop screen.
+The project can display on both mobile and desktop screen.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,12 +40,13 @@ The project is shows on both mobile and desktop screen.
 Key Features
 
 key features of the application:
- The app allows user to view information.
- Accepts data.
- Gives feedback to users.
- Allows users to view resume and the diffrent languages used
- to develope the projects.
-
+- The app allows user to view information.
+- Accepts data.
+- Gives feedback to users.
+- Allows users to view resume and the languages used
+  to develope the projects.
+- Users can contact me using the contact form.
+- The app displays on both mobile and desktop.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
