@@ -62,80 +62,28 @@ key features of the application:
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
--  sign up with valid email.
--  sign in with user name and password.
-- view portfolio.
-- View projects
-- View resume.
-- 
-
-
+## 💻 Getting Started <a name="getting-started"></a
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+- Web browser.
+- Code editor eg [Visual Studio Code](https://code.visualstudio.com/download).
+- Github: Generate an ssh key or use https to clone the repository.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:coker2019/my-project.git
-```
---->
-
-
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- With a git cmd, git bash or visual studio terminal, clone repo with **``git clone https://github.com/coker2019/Coker_Portfolio.git``** to download the repository locally on your machine.
+- Then you navigate to the folder in your code editor with the command *``cd COKER_PORTFOLIO``*.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- AUTHORS -->
 
