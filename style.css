@@ -55,17 +55,6 @@ header {
   font-size: 18px;
   line-height: 20px;
   margin: 10px 0 0 12px;
-  animation: spin 0.9s infinite linear;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 .union-btn {
@@ -862,16 +851,16 @@ textarea::placeholder {
     align-items: center;
     text-align: center;
     color: #6070ff;
-    animation: spin 0.9s infinite linear;
+    animation: bounce 3s infinite ease-in-out;
   }
 
-  @keyframes spin {
+  @keyframes bounce {
     from {
-      transform: rotate(360deg);
+      transform: translateX(0);
     }
 
     to {
-      transform: rotate(0deg);
+      transform: translateX(20vw);
     }
   }
 
