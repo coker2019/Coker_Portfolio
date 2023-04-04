@@ -23,8 +23,9 @@ The project is my first mobile setup of my portfolio website.
 It contains the header and the headlines section which gives 
 information about me and what i do.
 The work section and the about section are added in this project.
-The work section provides information about my resume and the diffrent languages
-to build those projects.
+The work section provides information about my resume.
+The is a contact section that has a form where users that add and sign up.
+The project can display on both mobile and desktop screen.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,95 +40,50 @@ to build those projects.
 Key Features
 
 key features of the application:
- The app allows user to view information.
- Accepts data.
- Gives feedback to users.
- Allows users to view resume and the diffrent languages used
- to develope the projects.
-
+- The app allows user to view information.
+- Accepts data.
+- Gives feedback to users.
+- Allows users to view resume and the languages used
+  to develope the projects.
+- Users can contact me using the contact form.
+- The app displays on both mobile and desktop.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link]( https://coker2019.github.io/Coker_Portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
--  sign up with valid email.
--  sign in with user name and password.
-- view portfolio.
-- View projects
-- View resume.
-- 
-
-
+## 💻 Getting Started <a name="getting-started"></a
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+- Web browser.
+- Code editor eg [Visual Studio Code](https://code.visualstudio.com/download).
+- Github: Generate an ssh key or use https to clone the repository.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:coker2019/my-project.git
-```
---->
-
-
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- With a git cmd, git bash or visual studio terminal, clone repo with **``git clone https://github.com/coker2019/Coker_Portfolio.git``** to download the repository locally on your machine.
+- Then you navigate to the folder in your code editor with the command *``cd COKER_PORTFOLIO``*.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- AUTHORS -->
 
