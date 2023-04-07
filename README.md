@@ -12,7 +12,6 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -26,6 +25,8 @@ The work section and the about section are added in this project.
 The work section provides information about my resume.
 The is a contact section that has a form where users that add and sign up.
 The project can display on both mobile and desktop screen.
+
+https://www.loom.com/share/a3a14cb91578492bba7b3e9cab2e9ebe
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,6 +48,8 @@ key features of the application:
   to develope the projects.
 - Users can contact me using the contact form.
 - The app displays on both mobile and desktop.
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
