@@ -12,10 +12,6 @@ closed.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
 });
 
-// mobileList.addEventListener('click', () =>{
-//   mobileMenu.style.display = 'none';
-// });
-
 mobileList.forEach((link) => {
   link.addEventListener('click', () => {
     mobileMenu.style.display = 'none';
