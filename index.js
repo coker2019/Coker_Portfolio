@@ -352,8 +352,13 @@ closeBtn.addEventListener("click", () => {
 });
 
 // local Storage
+<<<<<<< HEAD
 const formStorage = document.querySelector(".contact-form");
 formStorage.addEventListener("input", () => {
+=======
+
+formStorage.addEventListener('input', () => {
+>>>>>>> bec67e47e56c4caf6d32e0e58cf69bff832ded8b
   const data = {
     name: document.querySelector("#name").value,
     email: document.querySelector("#mail").value,
