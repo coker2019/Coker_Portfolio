@@ -849,12 +849,7 @@ textarea::placeholder {
   display: none;
 }
 
-#error {
-  font-size: 13px;
-  font-family: 'poppins', sans-serif;
-  color: red;
-  margin-bottom: 39px;
-}
+
 
 @media (min-width: 768px) {
   * {
