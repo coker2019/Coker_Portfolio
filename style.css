@@ -330,7 +330,7 @@ h1 {
   border-radius: 8px;
 }
 
-.css-link {
+.css-link  {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -341,7 +341,7 @@ h1 {
   border-radius: 8px;
 }
 
-.javascript-link {
+.javascript-link  {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -352,7 +352,7 @@ h1 {
   border-radius: 8px;
 }
 
-.html-text {
+.html-text  {
   width: 29px;
   height: 16px;
   font-family: "Poppins", sans-serif;
@@ -981,6 +981,10 @@ textarea::placeholder {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  height: 271px;
+width: 778px;
+margin-top: 15px;
+
 }
 
 .paragraph2 {
@@ -994,6 +998,11 @@ textarea::placeholder {
   color: #344563;
   padding-left: 30px;
   margin-bottom: 150px;
+  height: 271px;
+width: 778px;
+
+
+
 }
 
 .btncontainer {
@@ -1762,20 +1771,22 @@ textarea::placeholder {
   }
 
   .popupcontainer {
-    width: 100%;
-    position: fixed;
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    border: 1px solid #ebecf0;
-    box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
-    backdrop-filter: blur(6px);
-    visibility: hidden;
+    
+    
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Neutrals/N30 - L */
+    
+    border: 1px solid #EBECF0;
+    /* Base/ Soft */
+    
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+ 
   }
+
 
   .popupcontainer.active {
     width: 100%;
@@ -1813,12 +1824,28 @@ textarea::placeholder {
   }
 
   .popuptitle .header2 {
-    font-family: "Crete Round", sans-serif;
+
+    width: 1056px;
+    height: 40px;
+    
+    /* Header / 2 */
+    
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #172b4d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+    
+    
+    /* Theme 1 /  Neutrals 1 */
+    
+    color: #091E42;
+  }
+
+  .pop-style{
+    margin-right: 800px;
+ 
   }
 
   .popuptitle .closebtn {
@@ -1869,14 +1896,19 @@ textarea::placeholder {
   }
 
   .image2 {
-    max-width: 25%;
-    margin-left: 30px;
+    max-width: 50%;
+    margin-left: 400px;
+    justify-content: center;
+
   }
 
   .description1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
 
   .paragraph2 {

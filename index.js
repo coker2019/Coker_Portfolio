@@ -313,9 +313,17 @@ div.innerHTML = `
 <div class="popupcontainer" id="popup">
 <div class="popupcontainer2">
 <div class="popuptitle">
-<h1 class="header2">
+<h2 class="header2">
 Multi-Post Stories
-</h1>
+<div class="frame-2 pop-style">
+            <h4 class="canopy">CANOPY</h4>
+            <img class="count" src="images/Counter.png" alt="card">
+            <h4 class="role">Back End Dev</h4>
+            <img class="count" src="images/Counter.png" alt="card">
+            <h4 class="year">2015</h4>
+          </div>
+</h2>
+
 <button class="closebtn active" type="button">&times;</button>
 </div>
 
