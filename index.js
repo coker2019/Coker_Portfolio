@@ -352,21 +352,17 @@ closeBtn.addEventListener("click", () => {
 });
 
 // local Storage
-<<<<<<< HEAD
-const formStorage = document.querySelector(".contact-form");
-formStorage.addEventListener("input", () => {
-=======
 
+const formStorage = document.querySelector('contact-form');
 formStorage.addEventListener('input', () => {
->>>>>>> bec67e47e56c4caf6d32e0e58cf69bff832ded8b
   const data = {
-    name: document.querySelector("#name").value,
-    email: document.querySelector("#mail").value,
-    message: document.querySelector("#msg").value,
+    name: document.querySelector('#name').value,
+    email: document.querySelector('#mail').value,
+    message: document.querySelector('#msg').value,
   };
-  localStorage.setItem("formStorage", JSON.stringify(data));
+  localStorage.setItem('formStorage', JSON.stringify(data));
 });
-const object = JSON.parse(localStorage.getItem("formStorage"));
-document.querySelector("#name").value = object.name;
-document.querySelector("#mail").value = object.email;
-document.querySelector("#msg").value = object.message;
+const object = JSON.parse(localStorage.getItem('formStorage'));
+document.querySelector('#name').value = object.name;
+document.querySelector('#mail').value = object.email;
+document.querySelector('#msg').value = object.message;
