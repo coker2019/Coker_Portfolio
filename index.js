@@ -1,20 +1,20 @@
-const hamburgerButton = document.querySelector(".hamburger");
-const mobileMenu = document.querySelector(".mobile-lists");
-const closed = document.querySelector(".close-icon");
-const mobileList = document.querySelectorAll(".mobile-list");
+const hamburgerButton = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-lists');
+const closed = document.querySelector('.close-icon');
+const mobileList = document.querySelectorAll('.mobile-list');
 
-hamburgerButton.addEventListener("click", (event) => {
-  mobileMenu.style.display = "block";
+hamburgerButton.addEventListener('click', (event) => {
+  mobileMenu.style.display = 'block';
   event.preventDefault();
 });
 
-closed.addEventListener("click", () => {
-  mobileMenu.style.display = "none";
+closed.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
 });
 
 mobileList.forEach((link) => {
-  link.addEventListener("click", () => {
-    mobileMenu.style.display = "none";
+  link.addEventListener('click', () => {
+    mobileMenu.style.display = 'none';
   });
 });
 
@@ -22,122 +22,122 @@ mobileList.forEach((link) => {
 
 // popup windows
 
-const ProjectContainer = document.querySelector(".mobile-card");
+const ProjectContainer = document.querySelector('.mobile-card');
 
 const mobileProject = [
   {
-    name: "Tonic",
-    company: "CANOPY",
-    role: "Back End Dev",
-    year: "2015",
+    name: 'Tonic',
+    company: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2015',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "canopies.png",
-    technologies: ["HTML", "CSS", "JAVASCRIPT"],
-    linkToLive: "",
-    linkToSource: "",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'canopies.png',
+    technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
+    linkToLive: '',
+    linkToSource: '',
   },
   {
-    name: "Multi-Post Stories",
-    company: "CANOPY",
-    role: "Back End Dev",
-    year: "2015",
+    name: 'Multi-Post Stories',
+    company: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2015',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "available.png",
-    technologies: ["HTML", "CSS", "JAVASCRIPT"],
-    linkToLive: "",
-    linkToSource: "",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'available.png',
+    technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
+    linkToLive: '',
+    linkToSource: '',
   },
   {
-    id: "3",
-    name: "Tonic",
-    company: "CANOPY",
-    role: "Back End Dev",
-    year: "2015",
+    id: '3',
+    name: 'Tonic',
+    company: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2015',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "gym.png",
-    technologies: ["HTML", "CSS", "JAVASCRIPT"],
-    linkToLive: "",
-    linkToSource: "",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'gym.png',
+    technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
+    linkToLive: '',
+    linkToSource: '',
   },
   {
-    name: "Multi-Post Stories",
-    company: "CANOPY",
-    role: "Back End Dev",
-    year: "2015",
+    name: 'Multi-Post Stories',
+    company: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2015',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "mobile-art.png",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'mobile-art.png',
     // technologies: ["HTML", "CSS", "JAVASCRIPT"],
-    linkToLive: "",
-    linkToSource: "",
+    linkToLive: '',
+    linkToSource: '',
   },
 ];
 
 const allLists = () => {
-  ProjectContainer.innerHTML = "";
+  ProjectContainer.innerHTML = '';
   for (let i = 0; i < mobileProject.length; i += 1) {
-    const projectWrapper = document.createElement("div");
-    projectWrapper.setAttribute("class", "card_work card_work2");
+    const projectWrapper = document.createElement('div');
+    projectWrapper.setAttribute('class', 'card_work card_work2');
 
-    const projectImage = document.createElement("img");
-    projectImage.setAttribute("src", mobileProject[i].image);
-    projectImage.setAttribute("class", "snapshot");
+    const projectImage = document.createElement('img');
+    projectImage.setAttribute('src', mobileProject[i].image);
+    projectImage.setAttribute('class', 'snapshot');
 
-    const projectName = document.createElement("h2");
+    const projectName = document.createElement('h2');
     projectName.textContent = mobileProject[i].name;
-    projectName.setAttribute("class", "tonic-text");
+    projectName.setAttribute('class', 'tonic-text');
 
-    const leftBlock = document.createElement("div");
-    leftBlock.setAttribute("class", "left_block");
+    const leftBlock = document.createElement('div');
+    leftBlock.setAttribute('class', 'left_block');
 
-    const frameTwo = document.createElement("div");
-    frameTwo.setAttribute("class", "frame-2");
+    const frameTwo = document.createElement('div');
+    frameTwo.setAttribute('class', 'frame-2');
 
-    const projectCompany = document.createElement("h4");
+    const projectCompany = document.createElement('h4');
     projectCompany.textContent = mobileProject[i].company;
-    projectCompany.setAttribute("class", "canopy frame-2");
+    projectCompany.setAttribute('class', 'canopy frame-2');
 
-    const countImage = document.createElement("img");
-    countImage.setAttribute("class", "count");
+    const countImage = document.createElement('img');
+    countImage.setAttribute('class', 'count');
 
-    const projectRole = document.createElement("h4");
+    const projectRole = document.createElement('h4');
     projectRole.textContent = mobileProject[i].role;
-    projectRole.setAttribute("class", "role frame-2");
+    projectRole.setAttribute('class', 'role frame-2');
 
-    const countImage2 = document.createElement("img");
-    countImage2.setAttribute("class", "count");
+    const countImage2 = document.createElement('img');
+    countImage2.setAttribute('class', 'count');
 
-    const projectYear = document.createElement("h4");
+    const projectYear = document.createElement('h4');
     projectYear.textContent = mobileProject[i].year;
-    projectYear.setAttribute("class", "year frame-2");
+    projectYear.setAttribute('class', 'year frame-2');
 
-    const projectDesc = document.createElement("p");
+    const projectDesc = document.createElement('p');
     projectDesc.textContent = mobileProject[i].description;
-    projectDesc.setAttribute("class", "daily_text");
+    projectDesc.setAttribute('class', 'daily_text');
 
-    const listItems3 = document.createElement("ul");
-    listItems3.setAttribute("class", "tags");
+    const listItems3 = document.createElement('ul');
+    listItems3.setAttribute('class', 'tags');
 
-    const list8 = document.createElement("li");
-    list8.setAttribute("class", "html-links html-text");
-    list8.textContent = "HTML";
+    const list8 = document.createElement('li');
+    list8.setAttribute('class', 'html-links html-text');
+    list8.textContent = 'HTML';
 
-    const list9 = document.createElement("li");
-    list9.setAttribute("class", "css-link css-text");
-    list9.textContent = "CSS";
+    const list9 = document.createElement('li');
+    list9.setAttribute('class', 'css-link css-text');
+    list9.textContent = 'CSS';
 
-    const list10 = document.createElement("li");
-    list10.setAttribute("class", "java-link java-text");
-    list10.textContent = "JAVASCRIPT";
+    const list10 = document.createElement('li');
+    list10.setAttribute('class', 'java-link java-text');
+    list10.textContent = 'JAVASCRIPT';
 
-    const projectBtn = document.createElement("button");
-    projectBtn.textContent = "See Project";
+    const projectBtn = document.createElement('button');
+    projectBtn.textContent = 'See Project';
     projectBtn.setAttribute(
-      "class",
-      "btn-container see-btn text_project display openpop"
+      'class',
+      'btn-container see-btn text_project display openpop',
     );
 
     frameTwo.append(
@@ -145,7 +145,7 @@ const allLists = () => {
       countImage,
       projectRole,
       countImage2,
-      projectYear
+      projectYear,
     );
 
     leftBlock.append(projectName, frameTwo);
@@ -157,7 +157,7 @@ const allLists = () => {
       leftBlock,
       projectDesc,
       listItems3,
-      projectBtn
+      projectBtn,
     );
 
     ProjectContainer.appendChild(projectWrapper);
@@ -168,104 +168,104 @@ allLists();
 
 // desktop cards
 
-const deskContainer = document.querySelector(".desk-card");
+const deskContainer = document.querySelector('.desk-card');
 
 const desktopProjects = [
   {
-    imageURL: "Amanda.png",
-    name: "Tonic",
-    company: "CANOPY",
-    role: "Back End Dev",
-    year: "2015",
+    imageURL: 'Amanda.png',
+    name: 'Tonic',
+    company: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2015',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required",
-    projectURL: "",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    projectURL: '',
   },
   {
-    imageURL: "Carbon-5.png",
-    name: "Multi-Post Stories",
-    company: "CANOPY",
-    role: "Full Stack Dev",
-    year: "2015",
+    imageURL: 'Carbon-5.png',
+    name: 'Multi-Post Stories',
+    company: 'CANOPY',
+    role: 'Full Stack Dev',
+    year: '2015',
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
 
-    projectURL: "",
+    projectURL: '',
   },
   {
-    imageURL: "Snapper.png",
-    name: "Facebook 360",
-    company: "FACEBOOK",
-    role: "Full Stack Dev",
-    year: "2015",
+    imageURL: 'Snapper.png',
+    name: 'Facebook 360',
+    company: 'FACEBOOK',
+    role: 'Full Stack Dev',
+    year: '2015',
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
 
-    projectURL: "",
+    projectURL: '',
   },
   {
-    imageURL: "Avail-port.png",
-    name: "Uber Navigation",
-    company: "Uber",
-    role: "Lead Developer",
-    year: "2015",
+    imageURL: 'Avail-port.png',
+    name: 'Uber Navigation',
+    company: 'Uber',
+    role: 'Lead Developer',
+    year: '2015',
     description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    projectURL: "",
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    projectURL: '',
   },
 ];
 
 const deskLists = () => {
-  deskContainer.innerHTML = "";
+  deskContainer.innerHTML = '';
   for (let i = 0; i < desktopProjects.length; i += 1) {
-    const deskWrapper = document.createElement("div");
-    deskWrapper.setAttribute("class", "main main2");
+    const deskWrapper = document.createElement('div');
+    deskWrapper.setAttribute('class', 'main main2');
 
-    const projectImage = document.createElement("img");
-    projectImage.setAttribute("src", desktopProjects[i].imageURL);
-    projectImage.setAttribute("class", "cont1");
+    const projectImage = document.createElement('img');
+    projectImage.setAttribute('src', desktopProjects[i].imageURL);
+    projectImage.setAttribute('class', 'cont1');
 
-    const contBlock = document.createElement("div");
-    contBlock.setAttribute("class", "cont2 cont3");
+    const contBlock = document.createElement('div');
+    contBlock.setAttribute('class', 'cont2 cont3');
 
-    const projectName = document.createElement("h2");
+    const projectName = document.createElement('h2');
     projectName.textContent = desktopProjects[i].name;
-    projectName.setAttribute("class", "cont2 cont3");
+    projectName.setAttribute('class', 'cont2 cont3');
 
-    const listItems2 = document.createElement("ul");
-    const list1 = document.createElement("li");
+    const listItems2 = document.createElement('ul');
+    const list1 = document.createElement('li');
     list1.textContent = desktopProjects[i].company;
-    list1.setAttribute("class", "show");
+    list1.setAttribute('class', 'show');
 
-    const list2 = document.createElement("li");
+    const list2 = document.createElement('li');
     list2.textContent = desktopProjects[i].role;
-    list2.setAttribute("class", "show2");
+    list2.setAttribute('class', 'show2');
 
-    const list3 = document.createElement("li");
+    const list3 = document.createElement('li');
     list3.textContent = desktopProjects[i].year;
-    list3.setAttribute("class", "show3");
+    list3.setAttribute('class', 'show3');
 
-    const projectDesc = document.createElement("p");
+    const projectDesc = document.createElement('p');
     projectDesc.textContent = desktopProjects[i].description;
-    projectDesc.setAttribute("class", "cont2");
+    projectDesc.setAttribute('class', 'cont2');
 
-    const listItems = document.createElement("ul");
-    listItems.setAttribute("class", "lang-desk lang2");
-    const list4 = document.createElement("li");
-    list4.textContent = "HTML";
+    const listItems = document.createElement('ul');
+    listItems.setAttribute('class', 'lang-desk lang2');
+    const list4 = document.createElement('li');
+    list4.textContent = 'HTML';
 
-    const list5 = document.createElement("li");
-    list5.textContent = "CSS";
+    const list5 = document.createElement('li');
+    list5.textContent = 'CSS';
 
-    const list6 = document.createElement("li");
-    list6.textContent = "JAVASCRIPT";
+    const list6 = document.createElement('li');
+    list6.textContent = 'JAVASCRIPT';
 
-    const list7 = document.createElement("li");
-    list7.textContent = "RUBY ON RAIL";
+    const list7 = document.createElement('li');
+    list7.textContent = 'RUBY ON RAIL';
 
-    const projectBtn = document.createElement("button");
-    projectBtn.textContent = "See Project";
-    projectBtn.setAttribute("class", "see_btn display openpop");
+    const projectBtn = document.createElement('button');
+    projectBtn.textContent = 'See Project';
+    projectBtn.setAttribute('class', 'see_btn display openpop');
 
     listItems.append(list4, list5, list6, list7);
 
@@ -276,7 +276,7 @@ const deskLists = () => {
       listItems2,
       projectDesc,
       listItems,
-      projectBtn
+      projectBtn,
     );
 
     deskWrapper.append(projectImage, contBlock);
@@ -287,8 +287,8 @@ const deskLists = () => {
 
 deskLists();
 
-const works = document.querySelector(".modal-section");
-const div = document.createElement("div");
+const works = document.querySelector('.modal-section');
+const div = document.createElement('div');
 works.appendChild(div);
 div.innerHTML = `
 <div class="popupcontainer" id="popup">
@@ -335,20 +335,20 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </div>
 `;
 
-const popUpWindow = document.querySelector(".popupcontainer");
-const openPopUp = document.querySelector(".openpop");
-const displayCard = document.querySelectorAll(".display");
-const closeBtn = document.querySelector(".closebtn");
-openPopUp.addEventListener("click", () => {
-  popUpWindow.classList.toggle("active");
+const popUpWindow = document.querySelector('.popupcontainer');
+const openPopUp = document.querySelector('.openpop');
+const displayCard = document.querySelectorAll('.display');
+const closeBtn = document.querySelector('.closebtn');
+openPopUp.addEventListener('click', () => {
+  popUpWindow.classList.toggle('active');
 });
 for (let i = 0; i < displayCard.length; i += 1) {
-  displayCard[i].addEventListener("click", () => {
-    popUpWindow.classList.toggle("active");
+  displayCard[i].addEventListener('click', () => {
+    popUpWindow.classList.toggle('active');
   });
 }
-closeBtn.addEventListener("click", () => {
-  popUpWindow.classList.remove("active");
+closeBtn.addEventListener('click', () => {
+  popUpWindow.classList.remove('active');
 });
 
 // local Storage

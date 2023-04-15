@@ -330,7 +330,7 @@ h1 {
   border-radius: 8px;
 }
 
-.css-link  {
+.css-link {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -341,7 +341,7 @@ h1 {
   border-radius: 8px;
 }
 
-.javascript-link  {
+.javascript-link {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -352,7 +352,7 @@ h1 {
   border-radius: 8px;
 }
 
-.html-text  {
+.html-text {
   width: 29px;
   height: 16px;
   font-family: "Poppins", sans-serif;
@@ -982,9 +982,8 @@ textarea::placeholder {
   flex-direction: row;
   justify-content: flex-start;
   height: 271px;
-width: 778px;
-margin-top: 15px;
-
+  width: 778px;
+  margin-top: 15px;
 }
 
 .paragraph2 {
@@ -999,10 +998,7 @@ margin-top: 15px;
   padding-left: 30px;
   margin-bottom: 150px;
   height: 271px;
-width: 778px;
-
-
-
+  width: 778px;
 }
 
 .btncontainer {
@@ -1771,22 +1767,19 @@ width: 778px;
   }
 
   .popupcontainer {
-    
-    
-    
     /* White */
-    
-    background: #FFFFFF;
-    /* Neutrals/N30 - L */
-    
-    border: 1px solid #EBECF0;
-    /* Base/ Soft */
-    
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-    border-radius: 16px;
- 
-  }
 
+    background: #fff;
+
+    /* Neutrals/N30 - L */
+
+    border: 1px solid #ebecf0;
+
+    /* Base/ Soft */
+
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+  }
 
   .popupcontainer.active {
     width: 100%;
@@ -1824,28 +1817,18 @@ width: 778px;
   }
 
   .popuptitle .header2 {
-
     width: 1056px;
     height: 40px;
-    
-    /* Header / 2 */
-    
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    /* or 130% */
-    
-    
-    /* Theme 1 /  Neutrals 1 */
-    
-    color: #091E42;
+    color: #091e42;
   }
 
-  .pop-style{
+  .pop-style {
     margin-right: 800px;
- 
   }
 
   .popuptitle .closebtn {
@@ -1899,7 +1882,6 @@ width: 778px;
     max-width: 50%;
     margin-left: 400px;
     justify-content: center;
-
   }
 
   .description1 {
