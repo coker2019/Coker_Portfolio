@@ -318,7 +318,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </div>
 <div class="row2">
 <button class="popbtn" type="button"><a href=" https://coker2019.github.io/Coker_Portfolio/"><img src="see-live.png" alt="enable"></a></button>
-<button class="popbtn" type="button"><a href="https://github.com/Mikey1-nuel/Capstone-Project-One.github.io"><img src="Enabled.png" alt=""></a></button>
+<button class="popbtn" type="button"><a href="https://coker2019.github.io/Coker_Portfolio"><img src="Enabled.png" alt=""></a></button>
 </div>
 </div>
 </div>
@@ -344,24 +344,20 @@ closeBtn.addEventListener('click', () => {
 });
 
 // Form validation
-const form = document.querySelector('.contact-form');
-const email = document.querySelector('.email');
-const errorContainer = document.createElement('div');
+
+const form = document.getElementById('contact-form');
 
 form.addEventListener('submit', (event) => {
-  if (email.value !== email.value.toLowerCase()) {
+  // debugger
+  const errorMsg = document.getElementById('error');
+  const email = document.querySelector('.email');
+  if (email.toLowerCase() !== email) {
+    errorMsg.style.display = 'block';
     event.preventDefault();
-    email.setCustomValidity('Email must be in lowercase');
-    form.appendChild(errorContainer);
-    errorContainer.textContent = 'Email must be in lowercase';
-    errorContainer.style.color = '#fff';
-    errorContainer.style.fontSize = '0.8rem';
-    errorContainer.style.padding = '1rem';
-    errorContainer.style.backgroundColor = 'red';
-    errorContainer.style.borderRadius = '0.5rem';
+    errorMsg.textContent = '(Please enter email in lowercase)';
+  } else {
+    errorMsg.textContent = '(Successful)';
+    errorMsg.style.color = 'green';
+    form.submit();
   }
-});
-
-email.addEventListener('input', () => {
-  email.setCustomValidity('');
 });
