@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
@@ -157,7 +157,7 @@ h1 {
   display: flex;
   width: 130px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -503,7 +503,7 @@ h1 {
 .resume-text {
   width: 278px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -566,7 +566,7 @@ h1 {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500 bold;
   font-size: 20px;
@@ -618,7 +618,7 @@ h1 {
 
 .lang-prog {
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500px bolder;
   font-size: 15px;
@@ -655,7 +655,7 @@ h1 {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500px bolder;
   font-size: 20px;
@@ -691,7 +691,7 @@ h1 {
 .contact-head {
   margin-top: 102px;
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -706,7 +706,7 @@ h1 {
   position: absolute;
   width: 327px;
   height: 102px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -732,7 +732,7 @@ form {
 }
 
 form input {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -771,7 +771,7 @@ form input {
 
 textarea::placeholder {
   color: #b3bac5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -796,7 +796,7 @@ textarea::placeholder {
   margin-top: 22px;
   width: 142px;
   height: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -849,7 +849,12 @@ textarea::placeholder {
   display: none;
 }
 
-
+#error {
+  font-size: 13px;
+  font-family: "poppins", sans-serif;
+  color: red;
+  margin-bottom: 39px;
+}
 
 @media (min-width: 768px) {
   * {
@@ -887,7 +892,7 @@ textarea::placeholder {
     width: 115px;
     height: 20px;
     margin: 25px 0 0 155px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -919,7 +924,7 @@ textarea::placeholder {
   .desk_nav li a {
     width: 63px;
     height: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -957,7 +962,7 @@ textarea::placeholder {
     height: 122px;
 
     /* margin: 105px 260px 405px 260px; */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -971,7 +976,7 @@ textarea::placeholder {
   .text2 {
     width: 920px;
     height: 98px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1030,7 +1035,7 @@ textarea::placeholder {
   .cont2 h2 {
     width: 496px;
     height: 46px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1048,7 +1053,7 @@ textarea::placeholder {
   .cont2 ul .show {
     list-style-type: none;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1059,7 +1064,7 @@ textarea::placeholder {
 
   .cont2 ul .show2 {
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1071,7 +1076,7 @@ textarea::placeholder {
 
   .cont2 ul .show3 {
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1084,7 +1089,7 @@ textarea::placeholder {
   .cont2 p {
     width: 496px;
     height: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1104,7 +1109,7 @@ textarea::placeholder {
   .cont2 .lang2 li {
     list-style-type: none;
     margin-right: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1116,7 +1121,7 @@ textarea::placeholder {
   }
 
   .cont2 button {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1189,7 +1194,7 @@ textarea::placeholder {
   .about1 h2 {
     width: 447px;
     height: 33px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1202,7 +1207,7 @@ textarea::placeholder {
   .about1 p {
     width: 447px;
     height: 102px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1223,7 +1228,7 @@ textarea::placeholder {
   }
 
   .about1 button {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1268,7 +1273,7 @@ textarea::placeholder {
   .lang-text {
     height: 24px;
     width: 582px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1302,7 +1307,7 @@ textarea::placeholder {
   }
 
   .about2 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1330,7 +1335,7 @@ textarea::placeholder {
   .lang1 p {
     width: 98px;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500px bolder;
     font-size: 15px;
@@ -1354,7 +1359,7 @@ textarea::placeholder {
   .line-text {
     width: 582px;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500px bolder;
     font-size: 20px;
@@ -1407,7 +1412,7 @@ textarea::placeholder {
     align-items: center;
     width: 801px;
     height: 56px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1422,7 +1427,7 @@ textarea::placeholder {
     align-items: center;
     width: 549px;
     height: 102px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1443,7 +1448,7 @@ textarea::placeholder {
   }
 
   form input {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1457,7 +1462,7 @@ textarea::placeholder {
   .input_name {
     width: 447px;
     height: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1473,7 +1478,7 @@ textarea::placeholder {
   .input_mail {
     width: 447px;
     height: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1494,7 +1499,7 @@ textarea::placeholder {
 
   textarea::placeholder {
     color: #b3bac5;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1544,7 +1549,7 @@ textarea::placeholder {
   .touch_text {
     width: 110px;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
