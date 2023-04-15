@@ -849,6 +849,13 @@ textarea::placeholder {
   display: none;
 }
 
+.error-container {
+  background-color: red;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
 @media (min-width: 768px) {
   * {
     box-sizing: border-box;
