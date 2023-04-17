@@ -1,3 +1,15 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "cSpell.words": [
+        "btncontainer",
+        "closebtn",
+        "langcontainer",
+        "langg",
+        "openpop",
+        "popbtn",
+        "popupcontainer",
+        "popuptitle",
+        "seperate",
+        "ulcontainer"
+    ]
 }
