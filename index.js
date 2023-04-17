@@ -3,17 +3,21 @@ const mobileMenu = document.querySelector('.mobile-lists');
 const closed = document.querySelector('.close-icon');
 const mobileList = document.querySelectorAll('.mobile-list');
 
+function toggleMobileMenu() {
+  if (mobileMenu.style.display === 'block') {
+    mobileMenu.style.display = 'none';
+  } else {
+    mobileMenu.style.display = 'block';
+  }
+}
+
 hamburgerButton.addEventListener('click', (event) => {
-  mobileMenu.style.display = 'block';
+  toggleMobileMenu();
   event.preventDefault();
 });
 
-closed.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-});
+closed.addEventListener('click', toggleMobileMenu);
 
 mobileList.forEach((link) => {
-  link.addEventListener('click', () => {
-    mobileMenu.style.display = 'none';
-  });
+  link.addEventListener('click', toggleMobileMenu);
 });
