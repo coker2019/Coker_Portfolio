@@ -780,6 +780,16 @@ textarea::placeholder {
   margin: 765px 0 0 133px;
 }
 
+.error-message p {
+  color: red;
+  text-align: left;
+}
+
+.sent h4 {
+  text-align: center;
+  color: green;
+}
+
 @media (min-width: 768px) {
   * {
     box-sizing: border-box;

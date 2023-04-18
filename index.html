@@ -243,23 +243,24 @@
         or a project that
         needs coding. I’d love to help with it </p>
 
-      <form action="https://formspree.io/f/xleknroo" method="POST"   id="contact-form">
-        <form id="fs-frm" class="contact_form" name="simple-contact-form" action="https://formspree.io/f/{form_id}"
-          method="post">
+      <form action="https://formspree.io/f/xleknroo" method="post" id="contact-form">
+        <!-- <form id="fs-frm" class="contact_form" name="simple-contact-form" action="https://formspree.io/f/{form_id}"
+          method="post"> -->
 
           <label for="full-name">
             <input class="input_name" type="text" name="name" id="full-name" placeholder="Maurice" required
               maxlength="30">
-          </label>
+       
 
           <label for="email" title="email" >
-            <input class="input_mail email" type="email" name="email" placeholder="Olabisi2k11@gmail.com" required>
-          </label>
+            <input class="input_mail" type="email" name="email" id="email" placeholder="Olabisi2k11@gmail.com" required>
+         <span id="error"><p class="error-message"></p></span>
+         <h4 class="sent"></h4>
 
           <label for="message" title="message">
             <textarea class="message_box" name="message" placeholder="write your message here" maxlength="500"
               required></textarea>
-          </label>
+       
 
           <button class="touch_btn" type="submit">
             Get in touch
