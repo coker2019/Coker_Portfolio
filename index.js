@@ -38,7 +38,9 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
     errorMsg.textContent = '(Please enter email in lowercase)';
   } else {
-   
+    errorMsg.textContent = '(Successful)';
+    errorMsg.style.color = 'green';
+    errorMsg.style.padding = '1rem';
     form.submit();
   }
 });
