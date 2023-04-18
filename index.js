@@ -44,3 +44,20 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// Local-storage 
+
+
+const formStorage = document.querySelector('contact-form');
+formStorage.addEventListener('input', () => {
+  const data = {
+    name: document.querySelector('#name').value,
+    email: document.querySelector('#mail').value,
+    message: document.querySelector('#msg').value,
+  };
+  localStorage.setItem('formStorage', JSON.stringify(data));
+});
+const object = JSON.parse(localStorage.getItem('formStorage'));
+document.querySelector('#name').value = object.name;
+document.querySelector('#mail').value = object.email;
+document.querySelector('#msg').value = object.message;
