@@ -790,7 +790,6 @@ textarea::placeholder {
   color: green;
 }
 
-
 @media (min-width: 768px) {
   * {
     box-sizing: border-box;
