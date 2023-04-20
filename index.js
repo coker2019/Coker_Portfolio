@@ -49,7 +49,6 @@ form.addEventListener('submit', (event) => {
 // popup window
 const bodyTag = document.querySelector('body');
 const projectContainer = document.querySelector('.works');
-const projectModals = document.querySelector('.modalsProjects');
 
 const worksProjects = [
   {
@@ -163,7 +162,7 @@ const projectLists = () => {
     const projectWrapper = document.createElement('div');
     projectWrapper.setAttribute('class', 'works main');
     if(i%2!==0){
-      projectWrapper.setAttribute('class', ' works main main2');
+      projectWrapper.setAttribute('class', 'works main main2');
     }
 
     const imageWrapper = document.createElement('div');
@@ -210,7 +209,7 @@ const projectLists = () => {
     const projectBtn = document.createElement('button');
     projectBtn.textContent = 'See Project';
     projectBtn.setAttribute('class', 'see_btn');
-    projectBtn.setAttribute('data-Btn', worksProjects[i].dataset);
+    projectBtn.setAttribute('data-databtn', worksProjects[i].dataset);
 
     listItems.append(list4, list5, list6);
 
@@ -233,11 +232,30 @@ const projectLists = () => {
 
 projectLists();
 
+// function to add element given tag name and class name
+const createElement = (tag, className) => {
+  const el = document.createElement(tag);
+  el.classList.add(className);
+  return el;
+};
+
+// function to create ul and li elements given an array of items & the class name of the ul element
+const createList = (items, className) => {
+  const ul = createElement('ul', className);
+  items.forEach((item) => {
+    const li = createElement('li', `${className}-item`);
+    li.innerText = item;
+    ul.appendChild(li);
+  });
+  return ul;
+};
+
 // modalProjects implementation
 
-function projectModals (e){
+function projectModals(e) {
   const docFragment = document.createDocumentFragment();
   const projectCardDetails = modalProjects[parseInt(e.target.dataset.databtn, 10)];
+  
   const popupContainer = createElement('div', 'popupContainer');
 
   const projectPopup = document.createElement('div');
@@ -305,22 +323,23 @@ function projectModals (e){
   popupContainer.appendChild(projectPopup);
   bodyTag.appendChild(popupContainer);
   
-  document.querySelector('.header').style.filter = 'blur(10px)';
-  projectContainer.style.filter = 'blur(10px)';
-  document.getElementById('headline').style.filter = 'blur(10px)';
-  document.getElementById('about-me').style.filter = 'blur(10px)';
+  // document.querySelector('.header').style.filter = 'blur(10px)';
+  // projectContainer.style.filter = 'blur(10px)';
+  // document.getElementById('headline').style.filter = 'blur(10px)';
+  // document.getElementById('about-me').style.filter = 'blur(10px)';
 
   const closeBtn = document.getElementById('closeBtn');
   closeBtn.addEventListener('click', () => {
     bodyTag.removeChild(popupContainer);
-    document.querySelector('.header').style.filter = 'blur(0)';
-    projectContainer.style.filter = 'blur(0)';
-    document.getElementById('headline').style.filter = 'blur(0)';
-    document.getElementById('about-me').style.filter = 'blur(0)';
+    // document.querySelector('.header').style.filter = 'blur(0)';
+    // projectContainer.style.filter = 'blur(0)';
+    // document.getElementById('headline').style.filter = 'blur(0)';
+    // document.getElementById('about-me').style.filter = 'blur(0)';
   });
 
 }
 
-const projectsBtn = document.querySelectorAll('.data-Btn');
+const projectsBtn = document.querySelectorAll('.see_btn');
+// console.log(projectsBtn);
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModals));
 

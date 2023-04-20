@@ -1528,69 +1528,6 @@ textarea::placeholder {
     border-radius: 16px;
   }
 
-  .popupcontainer.active {
-    width: 100%;
-    position: fixed;
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    border: 1px solid #ebecf0;
-    box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
-    backdrop-filter: blur(6px);
-    visibility: visible;
-  }
-
-  .popupcontainer2 {
-    width: 100%;
-    max-height: 80%;
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 24px;
-  }
-
-  .popuptitle {
-    width: 95%;
-    height: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .popuptitle .header2 {
-    width: 1056px;
-    height: 40px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-  }
-
-  .pop-style {
-    margin-right: 800px;
-  }
-
-  .popuptitle .closebtn {
-    color: #67798e;
-    font-size: 30px;
-    border: 0;
-    background: inherit;
-  }
-
-  .closebtn:hover {
-    border: 0;
-    color: #67798e;
-    cursor: pointer;
-  }
-
   .langcontainer {
     display: flex;
     flex-direction: row;
