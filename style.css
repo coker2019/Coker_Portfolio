@@ -208,8 +208,6 @@ h1 {
 }
 
 .cont1 img {
-  width: 295px;
-  height: 220px;
   border-radius: 8px;
   object-fit: contain;
   margin-top: -5px;
@@ -222,11 +220,12 @@ h1 {
   gap: 12px;
   width: 295px;
   height: 288px;
-  margin-top: -30px;
+  
 }
 
 .cont1 {
   margin-top: 24px;
+  width:95%;
 }
 
 .cont2 h2 {
@@ -948,18 +947,16 @@ textarea::placeholder {
   }
 
   .cont1 img {
-    /* width: 100%;
-    height: 100%; */
+ width: 100%;
     object-fit: contain;
 
     /* margin-left: -150px; */
-    width: 544px;
-    height: 445px;
   }
 
   .cont2 {
     /* margin-left: 46px;
     margin-top: -200px; */
+    margin-top: 30px;
     width: 544px;
     height: 445px;
   }
@@ -968,12 +965,6 @@ textarea::placeholder {
     /* margin-top: 24px; */
   }
 
-  .cont3 {
-    /* margin: auto;
- margin-top: -20px;  */
-
-    /* margin-right: 400px; */
-  }
 
   .cont2 h2 {
     width: 496px;
