@@ -196,11 +196,11 @@ h1 {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 652px;
+  height: 696px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 114px 24px;
+  /* margin: 80px 24px; */
 }
 
 .main2 {
@@ -210,7 +210,7 @@ h1 {
 .cont1 img {
   border-radius: 8px;
   object-fit: contain;
-  margin-top: -5px;
+  width: 295px;
 }
 
 .cont2 {
@@ -224,8 +224,9 @@ h1 {
 }
 
 .cont1 {
-  margin-top: 24px;
-  width:95%;
+  /* margin-top: 24px; */
+  
+
 }
 
 .cont2 h2 {
@@ -290,11 +291,6 @@ h1 {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
-  /* or 160% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
   font-family: "Poppins", sans-serif;
 }
@@ -770,14 +766,14 @@ textarea::placeholder {
   color: #dfe1e6;
 }
 
-.shape_img {
+/* .shape_img {
   position: absolute;
   width: 134px;
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
   margin: 765px 0 0 133px;
-}
+} */
 
 .error-message p {
   color: red;
@@ -893,8 +889,6 @@ textarea::placeholder {
   .greetings {
     width: 920px;
     height: 122px;
-
-    /* margin: 105px 260px 405px 260px; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -925,6 +919,7 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     background-color: #e5e5e5;
+   
   }
 
   .main {
@@ -963,6 +958,7 @@ textarea::placeholder {
 
   .cont1 {
     /* margin-top: 24px; */
+    
   }
 
 
@@ -1509,9 +1505,9 @@ textarea::placeholder {
     display: none;
   }
 
-  .shape_img {
+  /* .shape_img {
     display: none;
-  }
+  } */
 
   .popupcontainer {
     /* White */
@@ -1526,6 +1522,69 @@ textarea::placeholder {
 
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
+  }
+
+  .popupcontainer.active {
+    width: 100%;
+    position: fixed;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+    backdrop-filter: blur(6px);
+    visibility: visible;
+  }
+
+  .popupcontainer2 {
+    width: 100%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+  }
+
+  .popuptitle {
+    width: 95%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .popuptitle .header2 {
+    width: 1056px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .pop-style {
+    margin-right: 800px;
+  }
+
+  .popuptitle .closebtn {
+    color: #67798e;
+    font-size: 30px;
+    border: 0;
+    background: inherit;
+  }
+
+  .closebtn:hover {
+    border: 0;
+    color: #67798e;
+    cursor: pointer;
   }
 
   .langcontainer {

@@ -50,6 +50,7 @@ form.addEventListener('submit', (event) => {
 const bodyTag = document.querySelector('body');
 const projectContainer = document.querySelector('.works');
 
+
 const worksProjects = [
   {
     name: 'Tonic',
@@ -102,12 +103,10 @@ const worksProjects = [
 const modalProjects = [
   {
     title: 'Tonic',
-    description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
-    
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     image:  'Snapper.png',
-    technologies: ['CSS', 'HTML', 'Javascript', 'Ruby', 'Bootstrap'],
-    company: 'CANOPY',
+    technologies: ['CSS', 'HTML', 'Javascript'],
+    company: 'Canopy',
     role: 'Back End Dev',
     year: '2015',
     liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
@@ -115,12 +114,10 @@ const modalProjects = [
   },
   {
     title: 'Multi-Post Stories',
-    description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
-    
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     image: 'Carbon-5.png',
-    technologies: ['CSS', 'HTML', 'Javascript', 'Ruby', 'Bootstrap'],
-    company: 'CANOPY',
+    technologies: ['CSS', 'HTML', 'Javascript'],
+    company: 'Canopy',
     role: 'Back End Dev',
     year: '2015',
     liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
@@ -128,12 +125,10 @@ const modalProjects = [
   },
   {
     title: 'Facebook 360',
-    description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
-    
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     image: 'Amanda.png',
-    technologies: ['CSS', 'HTML', 'Javascript', 'Ruby', 'Bootstrap'],
-    company: 'CANOPY',
+    technologies: ['CSS', 'HTML', 'Javascript' ],
+    company: 'Canopy',
     role: 'Back End Dev',
     year: '2015',
     liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
@@ -141,12 +136,10 @@ const modalProjects = [
   },
   {
     title: 'Uber Navigation',
-    description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
-    
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
     image: 'Avail-port.png',
-    technologies:['CSS', 'HTML', 'Javascript', 'Ruby', 'Bootstrap'],
-    company: 'CANOPY',
+    technologies:['CSS', 'HTML', 'Javascript' ],
+    company: 'Canopy',
     role: 'Back End Dev',
     year: '2015',
     liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
@@ -209,7 +202,7 @@ const projectLists = () => {
     const projectBtn = document.createElement('button');
     projectBtn.textContent = 'See Project';
     projectBtn.setAttribute('class', 'see_btn');
-    projectBtn.setAttribute('data-databtn', worksProjects[i].dataset);
+    projectBtn.setAttribute('data-dataBtn', worksProjects[i].dataset);
 
     listItems.append(list4, list5, list6);
 
@@ -230,7 +223,6 @@ const projectLists = () => {
   };
 };
 
-projectLists();
 
 // function to add element given tag name and class name
 const createElement = (tag, className) => {
@@ -250,12 +242,13 @@ const createList = (items, className) => {
   return ul;
 };
 
+projectLists();
+
 // modalProjects implementation
 
-function projectModals(e) {
+function projectModals (e) {
   const docFragment = document.createDocumentFragment();
   const projectCardDetails = modalProjects[parseInt(e.target.dataset.databtn, 10)];
-  
   const popupContainer = createElement('div', 'popupContainer');
 
   const projectPopup = document.createElement('div');
@@ -269,21 +262,26 @@ function projectModals(e) {
   popupTitle.innerHTML = projectCardDetails.title;
   popupHeader.appendChild(popupTitle);
 
+  const popupBody = createElement('div', 'popupBody');
+  docFragment.appendChild(popupBody);
+
   const modalList = document.createElement('ul');
+  modalList.classList.add('popTags');
+
   const modalList1 = document.createElement('li');
   modalList1.innerHTML = projectCardDetails.company;
-
+  modalList1.classList.add('tagsList1');
+  
   const modalList2 = document.createElement('li');
   modalList2.innerHTML = projectCardDetails.role;
+  modalList2.classList.add('tagsList2');
 
   const modalList3 = document.createElement('li');
   modalList3.innerHTML = projectCardDetails.year;
+  modalList3.classList.add('tagsList3');
 
   modalList.append(modalList1, modalList2, modalList3);
-  popupHeader.appendChild(modalList);
-
-  const popupBody = createElement('div', 'popupBody');
-  docFragment.appendChild(popupBody);
+  popupBody.appendChild(modalList);
 
   const popupImgContainer = createElement('div', 'popupImgContainer');
   popupBody.appendChild(popupImgContainer);
@@ -306,40 +304,41 @@ function projectModals(e) {
   const popupLanguages = createList(projectCardDetails.technologies, 'popupLanguages');
   popupLinkContainer.appendChild(popupLanguages);
 
+  const popupLive = createElement('div', 'linkContainer');
+  popupLinkContainer.appendChild(popupLive);
+
   const liveLink = createElement('a', 'liveLink');
   liveLink.innerHTML = 'See live&nbsp;&nbsp;<i class="uil uil-export"></i>';
   liveLink.href = projectCardDetails.liveLink;
-  popupLinkContainer.appendChild(liveLink);
-
-  
+  popupLive.appendChild(liveLink);
 
   const sourceLink = createElement('a', 'sourceLink');
   sourceLink.innerHTML = 'See source&nbsp;&nbsp;<i class="uil uil-github"></i>';
   sourceLink.href = projectCardDetails.sourceLink;
-  popupLinkContainer.appendChild(sourceLink);
+  popupLive.appendChild(sourceLink);
 
   
   projectPopup.appendChild(docFragment);
   popupContainer.appendChild(projectPopup);
   bodyTag.appendChild(popupContainer);
   
-  // document.querySelector('.header').style.filter = 'blur(10px)';
-  // projectContainer.style.filter = 'blur(10px)';
-  // document.getElementById('headline').style.filter = 'blur(10px)';
-  // document.getElementById('about-me').style.filter = 'blur(10px)';
+  document.querySelector('.tool_bar').style.filter = 'blur(10px)';
+  projectContainer.style.filter = 'blur(10px)';
+  document.querySelector('.headline-sec').style.filter = 'blur(10px)';
+  document.querySelector('.about-section').style.filter = 'blur(10px)';
 
   const closeBtn = document.getElementById('closeBtn');
   closeBtn.addEventListener('click', () => {
     bodyTag.removeChild(popupContainer);
-    // document.querySelector('.header').style.filter = 'blur(0)';
-    // projectContainer.style.filter = 'blur(0)';
-    // document.getElementById('headline').style.filter = 'blur(0)';
-    // document.getElementById('about-me').style.filter = 'blur(0)';
+
+    document.querySelector('.tool_bar').style.filter = 'blur(0)';
+    projectContainer.style.filter = 'blur(0)';
+    document.querySelector('.headline-sec').style.filter = 'blur(0)';
+    document.querySelector('.about-section').style.filter = 'blur(0)';
   });
 
 }
 
 const projectsBtn = document.querySelectorAll('.see_btn');
-// console.log(projectsBtn);
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModals));
 
