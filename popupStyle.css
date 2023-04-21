@@ -1,5 +1,5 @@
 .popupContainer {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -12,8 +12,8 @@
   padding: 24px;
   position: absolute;
   width: 80%;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   top: 0;
   left: 50%;
@@ -28,50 +28,51 @@
   width: 100%;
 }
 
-.popupTitle { 
-  font-family: 'Poppins';
+.popupTitle {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: -5px;
 }
 
 .popTags {
   display: flex;
   flex-direction: row;
-  padding: 0px;
-  gap: 12px;
+  padding: 0;
+  gap: 16px;
+  margin-top: -15px;
 }
 
 .tagsList1 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;  
-  color: #344563;
-}
-
-.tagsList2 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #344563;
+}
+
+.tagsList2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
   list-style-type: square;
 }
 
 .tagsList3 {
   list-style-type: square;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .popupBody {
@@ -115,7 +116,7 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -127,7 +128,7 @@
 
 .popupLanguages-item {
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
 
@@ -137,7 +138,7 @@
   gap: 10px;
 }
 
-.liveLink { 
+.liveLink {
   padding: 12px 22px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -150,7 +151,7 @@
 }
 
 #closeBtn {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   position: absolute;
   top: 0;

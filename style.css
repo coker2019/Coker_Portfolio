@@ -200,6 +200,7 @@ h1 {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+
   /* margin: 80px 24px; */
 }
 
@@ -220,13 +221,10 @@ h1 {
   gap: 12px;
   width: 295px;
   height: 288px;
-  
 }
 
 .cont1 {
   /* margin-top: 24px; */
-  
-
 }
 
 .cont2 h2 {
@@ -919,7 +917,6 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     background-color: #e5e5e5;
-   
   }
 
   .main {
@@ -942,7 +939,7 @@ textarea::placeholder {
   }
 
   .cont1 img {
- width: 100%;
+    width: 100%;
     object-fit: contain;
 
     /* margin-left: -150px; */
@@ -958,9 +955,7 @@ textarea::placeholder {
 
   .cont1 {
     /* margin-top: 24px; */
-    
   }
-
 
   .cont2 h2 {
     width: 496px;

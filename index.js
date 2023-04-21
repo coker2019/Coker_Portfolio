@@ -45,11 +45,9 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
 // popup window
 const bodyTag = document.querySelector('body');
 const projectContainer = document.querySelector('.works');
-
 
 const worksProjects = [
   {
@@ -61,7 +59,7 @@ const worksProjects = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
     dataset: 0,
-  
+
   },
   {
     name: 'Multi-Post Stories',
@@ -73,7 +71,6 @@ const worksProjects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     dataset: 1,
 
-
   },
   {
     name: 'Facebook 360',
@@ -82,10 +79,9 @@ const worksProjects = [
     role: 'Back End Dev',
     year: '2015',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     dataset: 2,
 
-    
   },
   {
     name: 'Uber Navigation',
@@ -103,8 +99,8 @@ const worksProjects = [
 const modalProjects = [
   {
     title: 'Tonic',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    image:  'SnapperModals.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'SnapperModals.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
@@ -114,8 +110,8 @@ const modalProjects = [
   },
   {
     title: 'Multi-Post Stories',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    image: 'Carbon-5.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Modal-pix.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
@@ -125,9 +121,9 @@ const modalProjects = [
   },
   {
     title: 'Facebook 360',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    image: 'Amanda.png',
-    technologies: ['CSS', 'HTML', 'Javascript' ],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'Modal-pix.png',
+    technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
     year: '2015',
@@ -136,25 +132,24 @@ const modalProjects = [
   },
   {
     title: 'Uber Navigation',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    image: 'Avail-port.png',
-    technologies:['CSS', 'HTML', 'Javascript' ],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'SnapperModals.png',
+    technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
     year: '2015',
     liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
     sourceLink: 'https://github.com/coker2019/Coker_Portfolio',
   },
- 
-];
 
+];
 
 const projectLists = () => {
   projectContainer.innerHTML = '';
   for (let i = 0; i < worksProjects.length; i += 1) {
     const projectWrapper = document.createElement('div');
     projectWrapper.setAttribute('class', 'works main');
-    if(i%2!==0){
+    if (i % 2 !== 0) {
       projectWrapper.setAttribute('class', 'works main main2');
     }
 
@@ -163,13 +158,11 @@ const projectLists = () => {
     const projectImage = document.createElement('img');
     projectImage.setAttribute('src', worksProjects[i].imageURL);
 
-
     const contBlock = document.createElement('div');
     contBlock.setAttribute('class', 'cont2');
 
     const projectName = document.createElement('h2');
     projectName.textContent = worksProjects[i].name;
-  
 
     const listItems2 = document.createElement('ul');
     const list1 = document.createElement('li');
@@ -186,7 +179,6 @@ const projectLists = () => {
 
     const projectDesc = document.createElement('p');
     projectDesc.textContent = worksProjects[i].description;
-  
 
     const listItems = document.createElement('ul');
     listItems.setAttribute('class', 'lang-desk lang2');
@@ -220,9 +212,8 @@ const projectLists = () => {
     projectWrapper.append(imageWrapper, contBlock);
 
     projectContainer.appendChild(projectWrapper);
-  };
+  }
 };
-
 
 // function to add element given tag name and class name
 const createElement = (tag, className) => {
@@ -246,7 +237,7 @@ projectLists();
 
 // modalProjects implementation
 
-function projectModals (e) {
+function projectModals(e) {
   const docFragment = document.createDocumentFragment();
   const projectCardDetails = modalProjects[parseInt(e.target.dataset.databtn, 10)];
   const popupContainer = createElement('div', 'popupContainer');
@@ -271,7 +262,7 @@ function projectModals (e) {
   const modalList1 = document.createElement('li');
   modalList1.innerHTML = projectCardDetails.company;
   modalList1.classList.add('tagsList1');
-  
+
   const modalList2 = document.createElement('li');
   modalList2.innerHTML = projectCardDetails.role;
   modalList2.classList.add('tagsList2');
@@ -292,14 +283,13 @@ function projectModals (e) {
 
   const lowerContainer = createElement('div', 'lowerContainer');
   popupBody.appendChild(lowerContainer);
- 
+
   const popupTextContainer = createElement('div', 'popupTextContainer');
   lowerContainer.appendChild(popupTextContainer);
- 
+
   const popupDescription = createElement('p', 'popupDescription');
   popupDescription.innerText = projectCardDetails.description;
   popupTextContainer.appendChild(popupDescription);
- 
 
   const popupLinkContainer = createElement('div', 'popupLinkContainer');
   lowerContainer.appendChild(popupLinkContainer);
@@ -320,11 +310,10 @@ function projectModals (e) {
   sourceLink.href = projectCardDetails.sourceLink;
   popupLive.appendChild(sourceLink);
 
-  
   projectPopup.appendChild(docFragment);
   popupContainer.appendChild(projectPopup);
   bodyTag.appendChild(popupContainer);
-  
+
   document.querySelector('.tool_bar').style.filter = 'blur(10px)';
   projectContainer.style.filter = 'blur(10px)';
   document.querySelector('.headline-sec').style.filter = 'blur(10px)';
@@ -339,9 +328,7 @@ function projectModals (e) {
     document.querySelector('.headline-sec').style.filter = 'blur(0)';
     document.querySelector('.about-section').style.filter = 'blur(0)';
   });
-
 }
 
 const projectsBtn = document.querySelectorAll('.see_btn');
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModals));
-
