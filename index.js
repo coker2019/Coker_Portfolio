@@ -104,7 +104,7 @@ const modalProjects = [
   {
     title: 'Tonic',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    image:  'Snapper.png',
+    image:  'SnapperModals.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
@@ -258,7 +258,7 @@ function projectModals (e) {
   popupHeader.innerHTML = '<i class="uil uil-multiply" id="closeBtn"></i>';
   docFragment.appendChild(popupHeader);
 
-  const popupTitle = createElement('h3', 'popupTitle');
+  const popupTitle = createElement('h2', 'popupTitle');
   popupTitle.innerHTML = projectCardDetails.title;
   popupHeader.appendChild(popupTitle);
 
@@ -281,7 +281,7 @@ function projectModals (e) {
   modalList3.classList.add('tagsList3');
 
   modalList.append(modalList1, modalList2, modalList3);
-  popupBody.appendChild(modalList);
+  popupHeader.appendChild(modalList);
 
   const popupImgContainer = createElement('div', 'popupImgContainer');
   popupBody.appendChild(popupImgContainer);
@@ -289,9 +289,12 @@ function projectModals (e) {
   const popupImg = createElement('img', 'popupImg');
   popupImg.src = projectCardDetails.image;
   popupImgContainer.appendChild(popupImg);
+
+  const lowerContainer = createElement('div', 'lowerContainer');
+  popupBody.appendChild(lowerContainer);
  
   const popupTextContainer = createElement('div', 'popupTextContainer');
-  popupBody.appendChild(popupTextContainer);
+  lowerContainer.appendChild(popupTextContainer);
  
   const popupDescription = createElement('p', 'popupDescription');
   popupDescription.innerText = projectCardDetails.description;
@@ -299,7 +302,7 @@ function projectModals (e) {
  
 
   const popupLinkContainer = createElement('div', 'popupLinkContainer');
-  popupBody.appendChild(popupLinkContainer);
+  lowerContainer.appendChild(popupLinkContainer);
 
   const popupLanguages = createList(projectCardDetails.technologies, 'popupLanguages');
   popupLinkContainer.appendChild(popupLanguages);
