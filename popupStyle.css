@@ -1,5 +1,5 @@
 .popupContainer {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   height: 823px;
@@ -21,7 +21,7 @@
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
- 
+position: absolute;
 
 }
 
