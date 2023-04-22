@@ -45,8 +45,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// Local-storage 
-
+// Local-storage
 
 const formStorage = document.querySelector('contact-form');
 formStorage.addEventListener('input', () => {
