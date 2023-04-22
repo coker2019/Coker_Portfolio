@@ -3,22 +3,25 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
+  opacity: 75;
 }
 
 .projectPopup {
   display: flex;
   flex-direction: column;
   padding: 24px;
-  position: absolute;
-  width: 80%;
+  position: relative;
+  width: 75%;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  top: 0;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, 5%);
-  z-index: 2;
+  z-index: 10;
+  overflow-y: scroll;
+   height: 700px;
 }
 
 .popupHeader {
@@ -44,6 +47,7 @@
   padding: 0;
   gap: 16px;
   margin-top: -15px;
+  
 }
 
 .tagsList1 {
@@ -81,12 +85,14 @@
 
 .popupImgContainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  
 }
 
 .popupImgContainer img {
-  width: 80%;
+  width: 100%;
   object-fit: contain;
+
 }
 
 .lowerContainer {
@@ -152,12 +158,13 @@
 
 #closeBtn {
   font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
   transition: 0.1s;
+  color:  #67798E;
 }
 
 #closeBtn:hover {
@@ -170,4 +177,6 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+
+  
 }

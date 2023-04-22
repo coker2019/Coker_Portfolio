@@ -52,7 +52,7 @@ const projectContainer = document.querySelector('.works');
 const worksProjects = [
   {
     name: 'Tonic',
-    imageURL: 'Snapper.png',
+    imageURL: 'images/Snapper.png',
     company: 'CANOPY',
     role: 'Back End Dev',
     year: '2015',
@@ -63,7 +63,7 @@ const worksProjects = [
   },
   {
     name: 'Multi-Post Stories',
-    imageURL: 'Carbon-5.png',
+    imageURL: 'images/Carbon-5.png',
     company: 'CANOPY',
     role: 'Back End Dev',
     year: '2015',
@@ -74,7 +74,7 @@ const worksProjects = [
   },
   {
     name: 'Facebook 360',
-    imageURL: 'Amanda.png',
+    imageURL: 'images/Amanda.png',
     company: 'FACEBOOK',
     role: 'Back End Dev',
     year: '2015',
@@ -85,7 +85,7 @@ const worksProjects = [
   },
   {
     name: 'Uber Navigation',
-    imageURL: 'Avail-port.png',
+    imageURL: 'images/Avail-port.png',
     company: 'Uber',
     role: 'Back End Dev',
     year: '2015',
@@ -99,8 +99,8 @@ const worksProjects = [
 const modalProjects = [
   {
     title: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'SnapperModals.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\ the leap into electronic typesetting, remaining essent',
+    image: 'images/SnapperModals.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
@@ -110,8 +110,8 @@ const modalProjects = [
   },
   {
     title: 'Multi-Post Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'Modal-pix.png',
+    description: 'Lorem Ipsum is simply dummy standan printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries remaining essent',
+    image: 'images/Modal-pix.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
@@ -121,8 +121,8 @@ const modalProjects = [
   },
   {
     title: 'Facebook 360',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'Modal-pix.png',
+    description: 'Lorem Ips standard dummy text  it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'images/Modal-pix.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
@@ -132,8 +132,8 @@ const modalProjects = [
   },
   {
     title: 'Uber Navigation',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'SnapperModals.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survivg, remaining essent',
+    image: 'images/SnapperModals.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
     role: 'Back End Dev',
