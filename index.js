@@ -99,7 +99,7 @@ const worksProjects = [
 const modalProjects = [
   {
     title: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\ the leap into electronic typesetting, remaining essent',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry the leap into electronic typesetting, remaining essent',
     image: 'images/SnapperModals.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
     company: 'Canopy',
@@ -120,7 +120,7 @@ const modalProjects = [
     sourceLink: 'https://github.com/coker2019/Coker_Portfolio',
   },
   {
-    title: 'Facebook 360',
+    title: 'Tonic',
     description: 'Lorem Ips standard dummy text  it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'images/Modal-pix.png',
     technologies: ['CSS', 'HTML', 'Javascript'],

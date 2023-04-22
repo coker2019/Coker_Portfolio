@@ -21,7 +21,7 @@
   transform: translate(-50%, 5%);
   z-index: 10;
   overflow-y: scroll;
-   height: 700px;
+  height: 700px;
 }
 
 .popupHeader {
@@ -47,7 +47,6 @@
   padding: 0;
   gap: 16px;
   margin-top: -15px;
-  
 }
 
 .tagsList1 {
@@ -86,13 +85,11 @@
 .popupImgContainer {
   display: flex;
   justify-content: flex-start;
-  
 }
 
 .popupImgContainer img {
   width: 100%;
   object-fit: contain;
-
 }
 
 .lowerContainer {
@@ -115,7 +112,7 @@
 }
 
 .popupLinkContainer {
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .popupLanguages {
@@ -145,15 +142,29 @@
 }
 
 .liveLink {
-  padding: 12px 22px;
+  padding: 11px 13px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  height: 46px;
+  width: 50%;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .sourceLink {
-  padding: 12px 13px;
+  padding: 10px 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  height: 46px;
+  width: 50%;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 #closeBtn {
@@ -164,7 +175,7 @@
   right: 0;
   cursor: pointer;
   transition: 0.1s;
-  color:  #67798E;
+  color: #67798e;
 }
 
 #closeBtn:hover {
@@ -178,5 +189,19 @@
     grid-template-columns: 2fr 1fr;
   }
 
-  
+  .liveLink {
+    padding: 12px 22px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 40%;
+    color: #396df2;
+  }
+
+  .sourceLink {
+    padding: 12px 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 40%;
+    color: #396df2;
+  }
 }
