@@ -49,7 +49,6 @@ form.addEventListener('submit', (event) => {
 const bodyTag = document.querySelector('body');
 const projectContainer = document.querySelector('.works');
 
-
 const worksProjects = [
   {
     name: 'Hotel Booking App',
