@@ -49,48 +49,49 @@ form.addEventListener('submit', (event) => {
 const bodyTag = document.querySelector('body');
 const projectContainer = document.querySelector('.works');
 
+
 const worksProjects = [
   {
-    name: 'Tonic',
-    imageURL: 'images/Snapper.png',
-    company: 'CANOPY',
-    role: 'Back End Dev',
-    year: '2015',
+    name: 'Hotel Booking App',
+    imageURL: 'images/hotelapp.jpeg',
+    company: 'Microverse',
+    role: 'Front/Back End Dev',
+    year: '2023',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+      'App designed where clients could make reservations for hotel rooms.',
     dataset: 0,
 
   },
   {
-    name: 'Multi-Post Stories',
-    imageURL: 'images/Carbon-5.png',
-    company: 'CANOPY',
+    name: 'Budget App',
+    imageURL: 'images/mybudget.png',
+    company: 'Microverse',
     role: 'Back End Dev',
-    year: '2015',
+    year: '2023',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Budget App Manage your finances effortlessly using our user-friendly budget app.',
     dataset: 1,
 
   },
   {
-    name: 'Facebook 360',
-    imageURL: 'images/Amanda.png',
-    company: 'FACEBOOK',
-    role: 'Back End Dev',
-    year: '2015',
+    name: 'Magic Magician',
+    imageURL: 'images/magic.png',
+    company: 'Microverse',
+    role: 'Front End Dev',
+    year: '2023',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'It a Single Page App (SPA) that allows users to make simple calculations and read a random math related quote.',
     dataset: 2,
 
   },
   {
-    name: 'Uber Navigation',
-    imageURL: 'images/Avail-port.png',
-    company: 'Uber',
-    role: 'Back End Dev',
-    year: '2015',
+    name: 'Metrics App',
+    imageURL: 'images/metricsapp.png',
+    company: 'Microverse',
+    role: 'Front End Dev',
+    year: '2023',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'React and Redux single page application that contains basic information about European countries: population, capital and timezone.',
     dataset: 3,
   },
 
@@ -98,51 +99,71 @@ const worksProjects = [
 
 const modalProjects = [
   {
-    title: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry the leap into electronic typesetting, remaining essent',
-    image: 'images/SnapperModals.png',
-    technologies: ['CSS', 'HTML', 'Javascript'],
-    company: 'Canopy',
+    title: 'Hotel Booking App',
+    description: 'App designed where clients could make reservations for hotel rooms.',
+    image: 'images/hotelapp.jpeg',
+    technologies: ['React', 'Ruby on Rails', 'Webpack'],
+    company: 'Microverse',
     role: 'Back End Dev',
-    year: '2015',
-    liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
-    sourceLink: 'https://github.com/coker2019/Coker_Portfolio',
+    year: '2023',
+    liveLink: 'https://hotel-booking-3wof.onrender.com/login',
+    sourceLink: 'https://github.com/coker2019/hotel-booking-front-end',
   },
   {
-    title: 'Multi-Post Stories',
-    description: 'Lorem Ipsum is simply dummy standan printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries remaining essent',
-    image: 'images/Modal-pix.png',
-    technologies: ['CSS', 'HTML', 'Javascript'],
-    company: 'Canopy',
+    title: 'Budget App',
+    description: 'Budget App Manage your finances effortlessly using our user-friendly budget app',
+    image: 'images/mybudget.png',
+    technologies: ['Ruby', 'Rails', 'PostgreSQL'],
+    company: 'Microverse',
     role: 'Back End Dev',
-    year: '2015',
-    liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
-    sourceLink: 'https://github.com/coker2019/Coker_Portfolio',
+    year: '2023',
+    liveLink: 'https://postgre-budget.onrender.com/users/sign_in',
+    sourceLink: 'https://github.com/coker2019/budget_app_ror',
   },
   {
-    title: 'Tonic',
-    description: 'Lorem Ips standard dummy text  it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Modal-pix.png',
+    title: 'Magic Magician',
+    description: 'It is a Single Page App (SPA) that allows users to make simple calculations and read a random math related quote.',
+    image: 'images/magic.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
-    company: 'Canopy',
-    role: 'Back End Dev',
-    year: '2015',
-    liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
-    sourceLink: 'https://github.com/coker2019/Coker_Portfolio',
+    company: 'Microverse',
+    role: 'Front End Dev',
+    year: '2023',
+    liveLink: 'https://math-magicianapp.onrender.com/calculator',
+    sourceLink: 'https://github.com/coker2019/math_magician',
   },
   {
-    title: 'Uber Navigation',
-    description: 'Lorem Ipsum is simply dummy text of the printing and an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survivg, remaining essent',
-    image: 'images/SnapperModals.png',
+    title: 'Metrics App',
+    description: 'React and Redux single page application that contains basic information about European countries: population, capital and timezone.',
+    image: 'images/metricsapp.png',
     technologies: ['CSS', 'HTML', 'Javascript'],
-    company: 'Canopy',
-    role: 'Back End Dev',
-    year: '2015',
-    liveLink: 'https://coker2019.github.io/Coker_Portfolio/',
-    sourceLink: 'https://github.com/coker2019/Coker_Portfolio',
+    company: 'Microverse',
+    role: 'Front End Dev',
+    year: '2023',
+    liveLink: 'https://populationapp.onrender.com/',
+    sourceLink: 'https://github.com/coker2019/metrics_app',
   },
 
 ];
+
+const addStyledHeader = () => {
+  const header = document.createElement('header');
+  header.setAttribute('class', 'portfolio');
+  const heading = document.createElement('h1');
+  heading.textContent = 'My Recent Works';
+
+  // Style the header and heading
+  header.style.padding = '40px';
+  heading.style.margin = '0';
+  header.style.padding = '20px';
+  header.style.textAlign = 'center'; // Align text to the center
+  header.style.boxSizing = 'border-box';
+  heading.style.fontSize = '1.5em';
+
+  header.appendChild(heading);
+  projectContainer.before(header); // Insert the header before the projectContainer
+};
+
+addStyledHeader();
 
 const projectLists = () => {
   projectContainer.innerHTML = '';
