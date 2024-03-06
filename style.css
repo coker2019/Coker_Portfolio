@@ -140,6 +140,18 @@ h1 {
   margin: -11px 0 0 24px;
 }
 
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin: -11px 0 0 24px;
+}
+
 .text2 {
   width: 327px;
   height: 146px;
@@ -177,7 +189,19 @@ h1 {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  margin: 12px 0 0 -24px;
+  margin: 45px 0 0 -24px;
+}
+
+.recent_works {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-top: 200px;
 }
 
 .works {
@@ -223,10 +247,6 @@ h1 {
   height: 288px;
 }
 
-.cont1 {
-  /* margin-top: 24px; */
-}
-
 .cont2 h2 {
   width: 295px;
   height: 36px;
@@ -241,7 +261,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 16px;
+  gap: 35px;
   width: 382px;
   height: 32px;
 }
@@ -413,7 +433,8 @@ button .btn {
   width: 200px;
   height: 40px;
   gap: 15px;
-  margin-left: 15px;
+  margin-left: 13px;
+  margin-top: 100px;
 }
 
 .resume_but {
@@ -557,10 +578,6 @@ button .btn {
   margin: -38px 0 0 76px;
 }
 
-.line1 {
-  width: 327px;
-  height: 72px;
-}
 
 .union-arrow {
   margin: 0 0 0 172px;
@@ -574,7 +591,7 @@ button .btn {
 
 .seperate-btn {
   height: 1px;
-  width: 100%;
+  width: auto;
   background: #dfe1e6;
 }
 
@@ -593,6 +610,48 @@ button .btn {
   color: #000;
 }
 
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.frameworks,
+.skills {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 300px; /* Adjust as needed */
+  color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  
+}
+
+.frame-skills{
+ margin-right: 3rem;
+}
+
+h3 {
+  color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ulList {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
 .contact_section {
   background-image: url("images/image_back.png");
   background-repeat: no-repeat;
@@ -603,7 +662,7 @@ button .btn {
   display: flex;
   flex-direction: column;
   border-top-left-radius: 100px;
-  margin: -160px 0 0 0;
+  margin: 100px 0 0 0;
 }
 
 .form-container {
@@ -780,6 +839,35 @@ textarea::placeholder {
   color: green;
 }
 
+footer {
+  background-color: #f1e9e9;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-contain {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.social-media2 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-links {
+  margin: 0 10px;
+}
+
+.img-footer {
+  width: 20px; /* Adjust as needed */
+  height: auto;
+}
+
 @media (min-width: 768px) {
   * {
     box-sizing: border-box;
@@ -908,12 +996,20 @@ textarea::placeholder {
 
   .works {
     width: 100%;
-    padding: 142px 40px;
+    padding: 156px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #e5e5e5;
+  }
+  .portfolio {
+    scroll-margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.7em;
   }
 
   .main {
@@ -1170,7 +1266,7 @@ textarea::placeholder {
     border-radius: 10px;
     padding: 12px;
     background: #fff;
-    margin-top: 61px;
+    margin-top: 100px;
   }
 
   .about2 {
@@ -1307,6 +1403,37 @@ textarea::placeholder {
   .seperate-btn {
     width: 684px;
     height: 1px;
+  }
+
+  .experience {
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    
+  }
+
+  .frame-skills{
+    display: flex;
+    align-items: center;
+  }
+
+  h3 {
+    color: #344563;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+  }
+
+  .frameworks,
+  .skills {
+    width: 48%; /* Adjust as needed for spacing */
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    
   }
 
   .contact_section {
@@ -1496,8 +1623,11 @@ textarea::placeholder {
   .union {
     display: none;
   }
-
-  /* .shape_img {
-    display: none;
+  /* .social-media2 {
+    flex-direction: column;
   } */
+
+  .footer-links {
+    margin: 0 10px;
+  }
 }
