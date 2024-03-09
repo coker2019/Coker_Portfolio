@@ -35,11 +35,28 @@ header {
   position: fixed;
 }
 
-.union-btn {
-  display: flex;
-  float: right;
-  margin-top: 10px;
-  margin-right: 35px;
+@media (max-width: 767px) {
+  .tool_bar {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .desk_nav {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px; /* Adjust as needed for spacing */
+  }
+
+  .desk_nav li {
+      margin: 10px 0; /* Adjust as needed for spacing */
+  }
+
+  .union-btn {
+      display: block;
+      margin-top: 10px;
+      float: right; /* Adjust as needed for spacing */
+  }
 }
 
 .mobile-lists {
