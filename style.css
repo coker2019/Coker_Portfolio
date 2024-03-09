@@ -56,6 +56,15 @@ header {
       display: block;
       margin-top: 10px;
       float: right; /* Adjust as needed for spacing */
+      padding: 8px;
+      width: 40px;
+      height: 40px;
+      right: 24px;
+      border-radius: 8px;
+      border: none;
+      background: #fff;
+      display: flex;
+      flex-direction: row;
   }
 }
 
@@ -99,25 +108,11 @@ header {
   cursor: pointer;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 2rem;
 }
 
 .logo-text {
   display: none;
-}
-
-.union-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  border-radius: 8px;
-  border: none;
-  background: #fff;
-  margin: 8px 0 0 8px;
 }
 
 .headline-sec {
