@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   margin: 0;
@@ -29,17 +32,14 @@ li {
 header {
   width: 375px;
   height: 48px;
+  position: fixed;
 }
 
-.tool_bar {
+.union-btn {
   display: flex;
-  justify-content: space-between;
-  width: 375px;
-  height: 50px;
-  padding: 14px 24px;
-  align-items: center;
-  margin-top: 44px;
-  margin-bottom: 0;
+  float: right;
+  margin-top: 10px;
+  margin-right: 35px;
 }
 
 .mobile-lists {
@@ -86,18 +86,7 @@ header {
 }
 
 .logo-text {
-  width: 150px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  margin: 10px 0 0 12px;
+  display: none;
 }
 
 .union-btn {
@@ -129,7 +118,7 @@ header {
 h1 {
   width: 327px;
   height: 150px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -141,7 +130,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 35px;
@@ -155,7 +144,7 @@ h2 {
 .text2 {
   width: 327px;
   height: 146px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -189,7 +178,7 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  margin: 45px 0 0 -24px;
+  margin: 45px 0 0 15px;
 }
 
 .recent_works {
@@ -891,13 +880,17 @@ footer {
     height: 50px;
     padding: 14px 24px;
     align-items: center;
+    border-bottom: 2px solid #6070ff;
+    z-index: 1;
+    background-color: #fff;
+    position: fixed;
   }
 
   .logo-text {
     width: 115px;
     height: 20px;
     margin: 25px 0 0 155px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -926,12 +919,16 @@ footer {
     margin: 25px 154px 0 0;
   }
 
+  .union-btn {
+    display: none;
+  }
+
   .desk_nav li a {
     width: 63px;
     height: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     display: flex;
@@ -965,7 +962,7 @@ footer {
   .greetings {
     width: 920px;
     height: 122px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -979,7 +976,7 @@ footer {
   .text2 {
     width: 920px;
     height: 98px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1047,7 +1044,7 @@ footer {
   .cont2 h2 {
     width: 496px;
     height: 46px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1069,7 +1066,7 @@ footer {
     list-style-type: none;
     height: 24px;
     width: 75px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1081,7 +1078,7 @@ footer {
   .cont2 ul .show2 {
     height: 24px;
     width: 300px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1093,7 +1090,7 @@ footer {
   .cont2 ul .show3 {
     height: 24px;
     width: 38px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1246,7 +1243,7 @@ footer {
   }
 
   .about1 button {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1325,7 +1322,7 @@ footer {
   }
 
   .about2 p {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1377,7 +1374,7 @@ footer {
   .line-text {
     width: 582px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500px bolder;
     font-size: 20px;
@@ -1412,7 +1409,6 @@ footer {
 
   h3 {
     color: #344563;
-    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -1422,7 +1418,7 @@ footer {
   .skills {
     width: 48%; /* Adjust as needed for spacing */
     color: #344563;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1459,7 +1455,7 @@ footer {
     align-items: center;
     width: 801px;
     height: 56px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1474,7 +1470,7 @@ footer {
     align-items: center;
     width: 549px;
     height: 102px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1509,7 +1505,7 @@ footer {
   .input_name {
     width: 447px;
     height: 48px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1525,7 +1521,7 @@ footer {
   .input_mail {
     width: 447px;
     height: 48px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1596,7 +1592,7 @@ footer {
   .touch_text {
     width: 110px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
