@@ -51,13 +51,13 @@ const projectContainer = document.querySelector('.works');
 
 const worksProjects = [
   {
-    name: 'Hotel Booking App',
-    imageURL: 'images/hotelapp.jpeg',
+    name: 'ToDo List',
+    imageURL: 'images/todo.png',
     company: 'Microverse',
     role: 'Front/Back End Dev',
     year: '2023',
     description:
-      'App designed where clients could make reservations for hotel rooms.',
+      'To-do-List It a project to add my activities for the day. Added and deleted when its done.',
     dataset: 0,
 
   },
@@ -98,15 +98,15 @@ const worksProjects = [
 
 const modalProjects = [
   {
-    title: 'Hotel Booking App',
-    description: 'App designed where clients could make reservations for hotel rooms.',
-    image: 'images/hotelapp.jpeg',
-    technologies: ['React', 'Ruby on Rails', 'Webpack'],
+    title: 'ToDo List',
+    description: 'To-do-List It a project to add my activities for the day. Added and deleted when its done.',
+    image: 'images/todo.png',
+    technologies: ['Html', 'Css', 'Webpack'],
     company: 'Microverse',
-    role: 'Back End Dev',
+    role: 'Front End Dev',
     year: '2023',
-    liveLink: 'https://hotel-booking-3wof.onrender.com/login',
-    sourceLink: 'https://github.com/coker2019/hotel-booking-front-end',
+    liveLink: 'https://coker2019.github.io/To-do-List/dist/',
+    sourceLink: 'https://github.com/coker2019/To-do-List',
   },
   {
     title: 'Budget App',
@@ -352,3 +352,16 @@ function projectModals(e) {
 
 const projectsBtn = document.querySelectorAll('.see_btn');
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModals));
+
+// $(document).ready(() => {
+//   // Add a class to the navigation when scrolling down
+//   $(window).scroll(function () {
+//     if ($(this).scrollTop() > 50) {
+//       $('.tool_bar').addClass('sticky');
+//     } else {
+//       $('.tool_bar').removeClass('sticky');
+//     }
+//   });
+
+//   // Add your responsive navigation toggle code here
+// });
