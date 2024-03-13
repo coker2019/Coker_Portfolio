@@ -62,13 +62,13 @@ const worksProjects = [
 
   },
   {
-    name: 'Budget App',
-    imageURL: 'images/mybudget.png',
+    name: 'Food-Meal App',
+    imageURL: 'images/cooking.png',
     company: 'Microverse',
-    role: 'Back End Dev',
+    role: 'Front End Dev',
     year: '2023',
     description:
-      'Budget App Manage your finances effortlessly using our user-friendly budget app.',
+      ' A food meal website where users can like, comment on food and make reservations.',
     dataset: 1,
 
   },
@@ -90,7 +90,7 @@ const worksProjects = [
     role: 'Front End Dev',
     year: '2023',
     description:
-      'React and Redux single page application that contains basic information about European countries: population, capital and timezone.',
+      'React and Redux single page application that contains basic information about European countries: population and capital',
     dataset: 3,
   },
 
@@ -109,15 +109,15 @@ const modalProjects = [
     sourceLink: 'https://github.com/coker2019/To-do-List',
   },
   {
-    title: 'Budget App',
-    description: 'Budget App Manage your finances effortlessly using our user-friendly budget app',
-    image: 'images/mybudget.png',
-    technologies: ['Ruby', 'Rails', 'PostgreSQL'],
+    title: 'Food-Meal App',
+    description: 'A food meal website where users can like, comment on food and make reservations.',
+    image: 'images/cooking.png',
+    technologies: ['Html', 'Css', 'JavaScript'],
     company: 'Microverse',
-    role: 'Back End Dev',
+    role: 'Front End Dev',
     year: '2023',
-    liveLink: 'https://postgre-budget.onrender.com/users/sign_in',
-    sourceLink: 'https://github.com/coker2019/budget_app_ror',
+    liveLink: 'https://toyman640.github.io/Javascript-Capstone-project/dist/',
+    sourceLink: 'https://github.com/toyman640/Javascript-Capstone-project',
   },
   {
     title: 'Magic Magician',
@@ -146,8 +146,8 @@ const modalProjects = [
 
 const addStyledHeader = () => {
   const header = document.createElement('header');
-  header.setAttribute('class', 'portfolio');
-  const heading = document.createElement('h1');
+  // header.setAttribute('class', 'portfolio');
+  const heading = document.createElement('h2');
   heading.textContent = 'My Recent Works';
 
   // Style the header and heading
