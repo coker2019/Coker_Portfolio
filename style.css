@@ -1,11 +1,13 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -78,16 +80,14 @@ header {
   background-color: rgba(85, 101, 243, 0.7);
   background-color: rgba(41, 58, 208, 0.8);
   backdrop-filter: blur(5px);
-  font-family: "Poppins", sans-serif;
   transition: all 0.3s linear;
+  font-family: "Roboto", sans-serif;
 }
 
 .mobile-list {
   display: flex;
   flex-direction: column;
   gap: 30px;
-
-  /* margin: auto; */
   padding: 20px 0;
   width: 80%;
   font-size: 2rem;
@@ -128,7 +128,6 @@ header {
 h1 {
   width: 327px;
   height: 150px;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -137,10 +136,10 @@ h1 {
   align-items: center;
   color: #172b4d;
   margin: -11px 0 0 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 35px;
@@ -149,18 +148,19 @@ h2 {
   align-items: center;
   color: #172b4d;
   margin: -11px 0 0 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 .text2 {
   width: 327px;
   height: 146px;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   margin: 12px 0 0 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 .connect-link,
@@ -168,13 +168,13 @@ h2 {
   display: flex;
   width: 130px;
   height: 24px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   margin: 12px 0 0 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 .connect-link2 {
@@ -192,10 +192,10 @@ h2 {
 }
 
 .recent_works {
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  font-family: "Roboto", sans-serif;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -223,8 +223,6 @@ h2 {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-
-  /* margin: 80px 24px; */
 }
 
 .main2 {
@@ -251,9 +249,9 @@ h2 {
   height: 36px;
   font-style: normal;
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
   line-height: 44px;
-  font-family: "Poppins", sans-serif;
 }
 
 .cont2 ul {
@@ -269,7 +267,7 @@ h2 {
   list-style-type: none;
   width: 55px;
   height: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -282,20 +280,20 @@ h2 {
   height: 16px;
   font-style: normal;
   font-weight: 600;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  font-family: "Poppins", sans-serif;
   list-style-type: square;
 }
 
 .cont2 ul .show3 {
   width: 29px;
   height: 16px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
+  font-family: "Roboto", sans-serif;
   line-height: 16px;
   color: #7a869a;
   list-style-type: square;
@@ -307,9 +305,9 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   line-height: 24px;
   color: #344563;
-  font-family: "Poppins", sans-serif;
 }
 
 .lang-desk {
@@ -324,10 +322,10 @@ h2 {
 
 .cont2 .lang2 li {
   list-style-type: none;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+  font-family: "Roboto", sans-serif;
   color: #6070ff;
   background: #ebebff;
   border-radius: 8px;
@@ -337,7 +335,7 @@ h2 {
 }
 
 .cont2 button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -396,7 +394,7 @@ button .btn {
 .About_text {
   width: 214px;
   height: 101px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -410,7 +408,7 @@ button .btn {
 .software_text {
   width: 327px;
   height: 144px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -446,12 +444,13 @@ button .btn {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  margin-top: 30px;
 }
 
 .resume-text {
   width: 278px;
   height: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -511,10 +510,7 @@ button .btn {
 .lang-text {
   height: 24px;
   top: calc(50% - 24px / 2);
-
-  /* Body / 1 - Bolder */
-
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500 bold;
   font-size: 20px;
@@ -548,9 +544,6 @@ button .btn {
 .lang1 {
   width: 303px;
   height: 66.72px;
-
-  /* Neutrals/N10 */
-
   background: #f7f7f9;
   border-radius: 8px;
 }
@@ -566,7 +559,7 @@ button .btn {
 
 .lang-prog {
   height: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px bolder;
   font-size: 15px;
@@ -598,7 +591,7 @@ button .btn {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px bolder;
   font-size: 20px;
@@ -623,7 +616,7 @@ button .btn {
   border-radius: 8px;
   max-width: 300px; /* Adjust as needed */
   color: #344563;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -634,7 +627,7 @@ button .btn {
 
 h3 {
   color: #344563;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -668,7 +661,7 @@ h3 {
 .contact-head {
   margin-top: 102px;
   position: absolute;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -683,7 +676,7 @@ h3 {
   position: absolute;
   width: 327px;
   height: 102px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -709,7 +702,7 @@ form {
 }
 
 form input {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -748,7 +741,7 @@ form input {
 
 textarea::placeholder {
   color: #b3bac5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -773,7 +766,7 @@ textarea::placeholder {
   margin-top: 22px;
   width: 142px;
   height: 48px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -805,6 +798,7 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -812,15 +806,6 @@ textarea::placeholder {
   letter-spacing: 0.03em;
   color: #dfe1e6;
 }
-
-/* .shape_img {
-  position: absolute;
-  width: 134px;
-  height: 5px;
-  background: #0d151e;
-  border-radius: 10px;
-  margin: 765px 0 0 133px;
-} */
 
 .error-message p {
   color: red;
@@ -861,9 +846,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  * {
-    box-sizing: border-box;
-  }
 
   body {
     width: 100%;
@@ -1034,20 +1016,12 @@ footer {
   .cont1 img {
     width: 100%;
     object-fit: contain;
-
-    /* margin-left: -150px; */
   }
 
   .cont2 {
-    /* margin-left: 46px;
-    margin-top: -200px; */
     margin-top: 30px;
     width: 544px;
     height: 445px;
-  }
-
-  .cont1 {
-    /* margin-top: 24px; */
   }
 
   .cont2 h2 {
@@ -1112,7 +1086,7 @@ footer {
   .cont2 p {
     width: 496px;
     height: 50px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1132,7 +1106,7 @@ footer {
   .cont2 .lang2 li {
     list-style-type: none;
     margin-right: 8px;
-    font-family: "Poppins", sans-serif;
+   font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1144,7 +1118,7 @@ footer {
   }
 
   .cont2 button {
-    font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1211,14 +1185,13 @@ footer {
   }
 
   .about1 {
-    /* margin-right: 36px; */
     margin: 0 600px 0 0;
   }
 
   .about1 h2 {
     width: 447px;
     height: 33px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1231,7 +1204,7 @@ footer {
   .about1 p {
     width: 447px;
     height: 102px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1297,7 +1270,7 @@ footer {
   .lang-text {
     height: 24px;
     width: 582px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1359,7 +1332,7 @@ footer {
   .lang1 p {
     width: 98px;
     height: 24px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500px bolder;
     font-size: 15px;
@@ -1500,7 +1473,7 @@ footer {
   }
 
   form input {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1551,7 +1524,7 @@ footer {
 
   textarea::placeholder {
     color: #b3bac5;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1620,10 +1593,6 @@ footer {
   .union {
     display: none;
   }
-
-  /* .social-media2 {
-    flex-direction: column;
-  } */
 
   .footer-links {
     margin: 0 10px;
