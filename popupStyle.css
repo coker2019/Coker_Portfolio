@@ -32,7 +32,7 @@
 }
 
 .popupTitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -42,6 +42,7 @@
 }
 
 .popTags {
+  margin: 2px 0 5px 0;
   display: flex;
   flex-direction: row;
   padding: 0;
@@ -50,7 +51,7 @@
 }
 
 .tagsList1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -59,7 +60,7 @@
 }
 
 .tagsList2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -70,7 +71,7 @@
 
 .tagsList3 {
   list-style-type: square;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -103,7 +104,7 @@
 }
 
 .popupDescription {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -119,13 +120,14 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
   gap: 10px;
+  padding-top: 10px;
   padding-left: 0;
 }
 
@@ -142,33 +144,33 @@
 }
 
 .liveLink {
-  padding: 11px 13px;
+  padding: 15px 13px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   height: 46px;
   width: 50%;
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
 }
 
 .sourceLink {
-  padding: 10px 0;
+  padding: 15px 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
   height: 46px;
   width: 50%;
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
 }
 
 #closeBtn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   position: absolute;
   top: 0;
@@ -203,5 +205,14 @@
     border-radius: 8px;
     width: 40%;
     color: #396df2;
+  }
+
+  .popTags {
+    margin: 25px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    gap: 16px;
+    margin-top: -10px;
   }
 }

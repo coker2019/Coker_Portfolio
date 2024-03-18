@@ -158,11 +158,12 @@ const addStyledHeader = () => {
   header.style.boxSizing = 'border-box';
   heading.style.fontSize = '1.5em';
 
-  header.appendChild(heading);
+  header.append(heading);
   projectContainer.before(header); // Insert the header before the projectContainer
 };
 
 addStyledHeader();
+
 
 const projectLists = () => {
   projectContainer.innerHTML = '';
